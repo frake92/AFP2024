@@ -24,24 +24,24 @@ A cél egy olyan webes marketplace fejlesztése, amely egységes és felhasznál
 Jelenleg az airsoft fegyverek kereskedelme több webáruház és fizikai bolt kombinációjával zajlik. Az alábbiakban összefoglaljuk a jellemző folyamatokat:
 
   Felhasználói folyamatok:
-      *  A vásárlók meglátogatják a különböző platformokat, amelyek nem biztosítanak egységes terméklistát vagy kategóriákat.
-      *  A termékek megvásárlása több lépésben történik, ahol minden felhasználónak külön-külön fiókot kell létrehoznia.
-      *  A vásárlás utáni információk (pl. inventory) nem mindig elérhetők egy helyen, így a felhasználók nem tudják egyszerűen nyomon követni, hogy milyen termékeket vásároltak.
+        A vásárlók meglátogatják a különböző platformokat, amelyek nem biztosítanak egységes terméklistát vagy kategóriákat.
+        A termékek megvásárlása több lépésben történik, ahol minden felhasználónak külön-külön fiókot kell létrehoznia.
+        A vásárlás utáni információk (pl. inventory) nem mindig elérhetők egy helyen, így a felhasználók nem tudják egyszerűen nyomon követni, hogy milyen termékeket vásároltak.
 
   Adminisztrátori folyamatok:
-      * Az adminisztrátorok különböző platformokon töltik fel a termékeket és kezelik a vásárlói információkat.
-      * A termékek kezelése és a vásárlói adatok módosítása több lépcsős és időigényes folyamat.
+        Az adminisztrátorok különböző platformokon töltik fel a termékeket és kezelik a vásárlói információkat.
+        A termékek kezelése és a vásárlói adatok módosítása több lépcsős és időigényes folyamat.
 
 # 5. Igényelt üzleti folyamatok modellje
 
 A vágyott rendszer az alábbiak szerint optimalizálja az üzleti folyamatokat:
 
-  -Felhasználói folyamatok:
-      * A vásárlók egy központosított marketplace felületet használhatnak, ahol minden termék egységesen, részletes specifikációkkal elérhető.
-      * Regisztráció után a felhasználók bejelentkezhetnek, és a korábbi vásárlásaik alapján nyomon követhetik az inventory-jukat.
-      * Egyszerűbb vásárlási folyamat, ahol minden vásárló egy fiókot használhat az összes tranzakcióhoz.
+  Felhasználói folyamatok:
+        A vásárlók egy központosított marketplace felületet használhatnak, ahol minden termék egységesen, részletes specifikációkkal elérhető.
+        Regisztráció után a felhasználók bejelentkezhetnek, és a korábbi vásárlásaik alapján nyomon követhetik az inventory-jukat.
+        Egyszerűbb vásárlási folyamat, ahol minden vásárló egy fiókot használhat az összes tranzakcióhoz.
 
-  -Adminisztrátori folyamatok:
+  Adminisztrátori folyamatok:
         Az adminisztrátorok egyetlen felületen kezelhetik a termékeket és a felhasználói fiókokat.
         A rendszer lehetővé teszi a termékek egyszerű felvitelét, szerkesztését és törlését, valamint a felhasználói jelszavak módosítását.
 
