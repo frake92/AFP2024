@@ -31,3 +31,11 @@ A cél egy olyan webes marketplace fejlesztése, amely egységes és felhasznál
 | K6  | Adminisztrátor | Termékek kezelése     | Az adminisztrátorok új termékeket tölthetnek fel, meglévőket szerkeszthetnek, vagy törölhetnek.                                                                  |
 | K7  | Adminisztrátor | Felhasználók kezelése | Az adminisztrátorok megtekinthetik a felhasználók adatait és szükség esetén megváltoztathatják a jelszavaikat.                                                   |
 | K8  | Adminisztrátor | Bejelentkezés         | Az adminisztrátorok bejelentkezhetnek admin felhasználónév és jelszó használatával.                                                                              |
+
+7. Fogalomtár
+
+Marketplace: Olyan online platform, amely lehetővé teszi termékek eladását és vásárlását.
+Airsoft: Olyan fegyvertípusok, amelyek műanyag golyók kilövésére alkalmasak, jellemzően hobbi és szimulációs célokra használják.
+Inventory: A felhasználó által megvásárolt termékek listája a rendszerben.
+Adminisztrátor: Olyan felhasználó, aki jogosult a rendszer termékeinek és felhasználóinak kezelésére.
+Specifikáció: Termékek műszaki vagy fizikai jellemzői, pl. kaliber, anyag, súly, méretek stb.
