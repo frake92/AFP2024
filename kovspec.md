@@ -19,10 +19,36 @@ Jelenleg az airsoft fegyverek vásárlása több különálló platformon tört�
 
 A cél egy olyan webes marketplace fejlesztése, amely egységes és felhasználóbarát felületet biztosít mind a vásárlók, mind az adminisztrátorok számára. Az alábbiakban a rendszer funkcionális követelményei találhatók.
 
+# 4. Jelenlegi üzleti folyamatok modellje
+
+Jelenleg az airsoft fegyverek kereskedelme több webáruház és fizikai bolt kombinációjával zajlik. Az alábbiakban összefoglaljuk a jellemző folyamatokat:
+
+  Felhasználói folyamatok:
+      *  A vásárlók meglátogatják a különböző platformokat, amelyek nem biztosítanak egységes terméklistát vagy kategóriákat.
+      *  A termékek megvásárlása több lépésben történik, ahol minden felhasználónak külön-külön fiókot kell létrehoznia.
+      *  A vásárlás utáni információk (pl. inventory) nem mindig elérhetők egy helyen, így a felhasználók nem tudják egyszerűen nyomon követni, hogy milyen termékeket vásároltak.
+
+  Adminisztrátori folyamatok:
+      * Az adminisztrátorok különböző platformokon töltik fel a termékeket és kezelik a vásárlói információkat.
+      * A termékek kezelése és a vásárlói adatok módosítása több lépcsős és időigényes folyamat.
+
+# 5. Igényelt üzleti folyamatok modellje
+
+A vágyott rendszer az alábbiak szerint optimalizálja az üzleti folyamatokat:
+
+  -Felhasználói folyamatok:
+      * A vásárlók egy központosított marketplace felületet használhatnak, ahol minden termék egységesen, részletes specifikációkkal elérhető.
+      * Regisztráció után a felhasználók bejelentkezhetnek, és a korábbi vásárlásaik alapján nyomon követhetik az inventory-jukat.
+      * Egyszerűbb vásárlási folyamat, ahol minden vásárló egy fiókot használhat az összes tranzakcióhoz.
+
+  -Adminisztrátori folyamatok:
+        Az adminisztrátorok egyetlen felületen kezelhetik a termékeket és a felhasználói fiókokat.
+        A rendszer lehetővé teszi a termékek egyszerű felvitelét, szerkesztését és törlését, valamint a felhasználói jelszavak módosítását.
+
 # 6. Követelménylista
 
 | Id  | Modul          | Név                   | Leírás                                                                                                                                                           |
-| --- | -------------- | --------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| :---: | :--------------: | :---------------------: | :----------------------------------------------------------------------------------------------------------------------------------------------------------------: |
 | K1  | Felhasználó    | Regisztráció          | A felhasználók a rendszerbe regisztrálhatnak felhasználónév, email, jelszó, teljes név és születési dátum megadásával. A rendszer validálja a születési dátumot. |
 | K2  | Felhasználó    | Bejelentkezés         | A felhasználók bejelentkezhetnek felhasználónév vagy email és jelszó használatával.                                                                              |
 | K3  | Felhasználó    | Termékek böngészése   | A felhasználók termékeket böngészhetnek és azok részletes adatait megtekinthetik (név, leírás, specifikációk, ár, évjárat, raktárkészlet).                       |
