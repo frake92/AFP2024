@@ -1,8 +1,9 @@
 # Áttekintés
+
 -html, javascript
 -Webmarketplace fegyverek árulására(airsoft) -leírás, specifikáció, ára, évjárat, raktár mennyiség
 -felhasználó - csak vásárolhasson - inventory, felhasználónév, jelszó, email cím, reg. idő, saját teljes név, szül. dátum(validáció)
--admin - csak feltölt, admin név, jelszó, rátekintés az összes fegyverre + felhasználókra rátekintés, jelszó változtatás felhasználónak, 
+-admin - csak feltölt, admin név, jelszó, rátekintés az összes fegyverre + felhasználókra rátekintés, jelszó változtatás felhasználónak,
 -bejelentkezés/regisztráció - felh, email, jelszó, jelszó mégegyszer, szül.dátum, teljes név.
 -fegyverek listázása.
 
@@ -17,3 +18,15 @@ Jelenleg az airsoft fegyverek vásárlása több különálló platformon tört�
 # 3. Vágyálomrendszer
 
 A cél egy olyan webes marketplace fejlesztése, amely egységes és felhasználóbarát felületet biztosít mind a vásárlók, mind az adminisztrátorok számára. Az alábbiakban a rendszer funkcionális követelményei találhatók.
+
+# 6. Követelménylista
+
+| Id | Modul Név Leírás
+K1 Felhasználó Regisztráció A felhasználók a rendszerbe regisztrálhatnak felhasználónév, email, jelszó, teljes név és születési dátum megadásával. A rendszer validálja a születési dátumot.
+K2 Felhasználó Bejelentkezés A felhasználók bejelentkezhetnek felhasználónév vagy email és jelszó használatával.
+K3 Felhasználó Termékek böngészése A felhasználók termékeket böngészhetnek és azok részletes adatait megtekinthetik (név, leírás, specifikációk, ár, évjárat, raktárkészlet).
+K4 Felhasználó Vásárlás A regisztrált és bejelentkezett felhasználók termékeket vásárolhatnak.
+K5 Felhasználó Inventory A felhasználók megtekinthetik a korábbi vásárlásaik listáját (inventory), amely tartalmazza a vásárolt termékek adatait.
+K6 Adminisztrátor Termékek kezelése Az adminisztrátorok új termékeket tölthetnek fel, meglévőket szerkeszthetnek, vagy törölhetnek.
+K7 Adminisztrátor Felhasználók kezelése Az adminisztrátorok megtekinthetik a felhasználók adatait és szükség esetén megváltoztathatják a jelszavaikat.
+K8 Adminisztrátor Bejelentkezés Az adminisztrátorok bejelentkezhetnek admin felhasználónév és jelszó használatával.
