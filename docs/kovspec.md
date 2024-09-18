@@ -51,8 +51,10 @@ A vágyott rendszer az alábbiak szerint optimalizálja az üzleti folyamatokat:
 
 # 7. Fogalomtár
 
-+ **Marketplace:** Olyan online platform, amely lehetővé teszi termékek eladását és vásárlását.
-+ **Airsoft:** Olyan fegyvertípusok, amelyek műanyag golyók kilövésére alkalmasak, jellemzően hobbi és szimulációs célokra használják.
-+ **Inventory:** A felhasználó által megvásárolt termékek listája a rendszerben.
-+ **Adminisztrátor:** Olyan felhasználó, aki jogosult a rendszer termékeinek és felhasználóinak kezelésére.
-+ **Specifikáció:** Termékek műszaki vagy fizikai jellemzői, pl. kaliber, anyag, súly, méretek stb.
++ **Marketplace:** A marketplace (piactér) egy online platform vagy felület, ahol különböző eladók és vásárlók találkozhatnak, hogy termékeket vagy szolgáltatásokat cseréljenek. Az eladók saját árukat, termékeiket kínálják fel, míg a vásárlók ezeket böngészhetik, és a platformon keresztül megvásárolhatják.
++ **Airsoft:** Az airsoft fegyver egy olyan eszköz, amely élethűen imitálja a valódi lőfegyverek megjelenését és működését, de nem éles lövedéket használ. Ezek a fegyverek 6 mm-es műanyag golyókat (BB-ket) lőnek ki, általában sűrített levegő, rugó vagy elektromos meghajtás révén.
++ **Inventory:** Az inventory (készlet) a vállalat vagy szervezet által birtokolt áruk, anyagok, alkatrészek vagy termékek összességét jelenti, amelyeket a termelési, elosztási vagy értékesítési folyamat során kezelnek. Az inventory a logisztikai és ellátási lánc menedzsment kulcsfontosságú része.
++ **Adminisztrátor:** Az adminisztrátor olyan személy, aki egy szervezet, intézmény, vagy rendszer működésének napi szintű irányítását, felügyeletét és adminisztratív feladatait végzi. Az adminisztrátorok szerepköre változatos lehet, attól függően, hogy milyen környezetben dolgoznak (pl. irodai, oktatási, informatikai).
++ **Specifikáció:** A specifikáció egy dokumentum vagy leírás, amely részletesen bemutatja egy termék, szolgáltatás vagy rendszer követelményeit, jellemzőit és funkcióit. A specifikáció célja, hogy pontosan meghatározza, mit várnak el egy adott dologtól, és így irányt adjon annak fejlesztéséhez, gyártásához vagy megvalósításához.
++ **Optimalizáció** Az optimalizáció olyan folyamatot jelöl, amelynek célja egy adott rendszer, folyamat vagy probléma legjobb (ideális) megoldásának megtalálása a rendelkezésre álló erőforrások és feltételek mellett. Az optimalizáció során a cél általában a teljesítmény maximalizálása vagy a költségek minimalizálása.
++ **Platform** A platform olyan rendszer, amelyen különböző alkalmazások, szolgáltatások vagy tevékenységek futnak vagy működnek. 
