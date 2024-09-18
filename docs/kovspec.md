@@ -1,16 +1,18 @@
-# 1. Áttekintés
+# Követelmény specifikáció
 
-Ez a dokumentum egy olyan webes marketplace rendszer követelményeit írja le, amely airsoft fegyverek árulására szolgál. A rendszernek külön adminisztrációs és vásárlói oldala lesz. Az admin feladata a termékek feltöltése és a felhasználói adatok kezelése, míg a vásárlók csak regisztráció után tudnak termékeket megtekinteni és vásárolni.
+## 1. Áttekintés
 
-# 2. A jelenlegi helyzet leírása
+Ez a dokumentum egy olyan webes marketplace rendszer követelményeit határozza meg, amely kifejezetten airsoft fegyverek értékesítésére szolgál. A weboldalunk célja, hogy az airsoft kedvelői számára egyszerűbbé és gyorsabbá tegye a jó minőségű airsoft fegyverek megtalálását és megvásárlását, de azok számára is kedvezhet az oldal akik nem jártasak ebben a témában, hiszen minden fegyverről információkat tud találni. A weboldalon több típusú és méretű fegyvert lehet megtalálni kategóriákra bontva, mint például a pisztolyok vagy a géppuskák. A vásárlók csak a regisztrációt követően kapnak hozzáférést a termékek részletes megtekintéséhez és a vásárlási funkciókhoz.
+
+## 2. A jelenlegi helyzet leírása
 
 Jelenleg az airsoft fegyverek vásárlása több különálló platformon történik, ahol az adminisztráció és a termékek kezelése nem teljesen egységes. Nincs egy olyan központosított felület, ahol az összes termék részletes specifikációkkal együtt megtalálható, és az adminisztrátorok egyszerűen kezelhetik az adatokat. A regisztráció és vásárlási folyamatok több lépcsősek és gyakran bonyolultak, ami csökkenti a felhasználói élményt.
 
-# 3. Vágyálomrendszer
+## 3. Vágyálomrendszer
 
 A cél egy olyan webes marketplace fejlesztése, amely egységes és felhasználóbarát felületet biztosít mind a vásárlók, mind az adminisztrátorok számára. Az alábbiakban a rendszer funkcionális követelményei találhatók.
 
-# 4. Jelenlegi üzleti folyamatok modellje
+## 4. Jelenlegi üzleti folyamatok modellje
 
 Jelenleg az airsoft fegyverek kereskedelme több webáruház és fizikai bolt kombinációjával zajlik. Az alábbiakban összefoglaljuk a jellemző folyamatokat:
 
@@ -29,7 +31,7 @@ Jelenleg az airsoft fegyverek kereskedelme több webáruház és fizikai bolt ko
         Az adminisztrátorok jelentéseket készítenek az értékesítési adatokról, készletinformációkról és vásárlói visszajelzésekről.
 
 
-# 5. Igényelt üzleti folyamatok modellje
+## 5. Igényelt üzleti folyamatok modellje
 
 A vágyott rendszer az alábbiak szerint optimalizálja az üzleti folyamatokat:
 
@@ -42,7 +44,7 @@ A vágyott rendszer az alábbiak szerint optimalizálja az üzleti folyamatokat:
         Az adminisztrátorok egyetlen felületen kezelhetik a termékeket és a felhasználói fiókokat.
         A rendszer lehetővé teszi a termékek egyszerű felvitelét, szerkesztését és törlését, valamint a felhasználói jelszavak módosítását.
 
-# 6. Követelménylista
+## 6. Követelménylista
 
 | Id  | Modul          | Név                   | Leírás                                                                                                                                                           |
 | :---: | :--------------: | :---------------------: | :----------------------------------------------------------------------------------------------------------------------------------------------------------------: |
@@ -55,7 +57,7 @@ A vágyott rendszer az alábbiak szerint optimalizálja az üzleti folyamatokat:
 | K7  | Adminisztrátor | Felhasználók kezelése | Az adminisztrátorok megtekinthetik a felhasználók adatait és szükség esetén megváltoztathatják a jelszavaikat.                                                   |
 | K8  | Adminisztrátor | Bejelentkezés         | Az adminisztrátorok bejelentkezhetnek admin felhasználónév és jelszó használatával.                                                                              |
 
-# 7. Fogalomtár
+## 7. Fogalomtár
 
 + **Marketplace:** A marketplace (piactér) egy online platform vagy felület, ahol különböző eladók és vásárlók találkozhatnak, hogy termékeket vagy szolgáltatásokat cseréljenek. Az eladók saját árukat, termékeiket kínálják fel, míg a vásárlók ezeket böngészhetik, és a platformon keresztül megvásárolhatják.
 + **Airsoft:** Az airsoft fegyver egy olyan eszköz, amely élethűen imitálja a valódi lőfegyverek megjelenését és működését, de nem éles lövedéket használ. Ezek a fegyverek 6 mm-es műanyag golyókat (BB-ket) lőnek ki, általában sűrített levegő, rugó vagy elektromos meghajtás révén.
