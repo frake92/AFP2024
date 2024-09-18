@@ -60,8 +60,8 @@ A vágyott rendszer az alábbiak szerint optimalizálja az üzleti folyamatokat:
 
 # 7. Fogalomtár
 
-Marketplace: Olyan online platform, amely lehetővé teszi termékek eladását és vásárlását.
-Airsoft: Olyan fegyvertípusok, amelyek műanyag golyók kilövésére alkalmasak, jellemzően hobbi és szimulációs célokra használják.
-Inventory: A felhasználó által megvásárolt termékek listája a rendszerben.
-Adminisztrátor: Olyan felhasználó, aki jogosult a rendszer termékeinek és felhasználóinak kezelésére.
-Specifikáció: Termékek műszaki vagy fizikai jellemzői, pl. kaliber, anyag, súly, méretek stb.
++ **Marketplace:** Olyan online platform, amely lehetővé teszi termékek eladását és vásárlását.
++ **Airsoft:** Olyan fegyvertípusok, amelyek műanyag golyók kilövésére alkalmasak, jellemzően hobbi és szimulációs célokra használják.
++ **Inventory:** A felhasználó által megvásárolt termékek listája a rendszerben.
++ **Adminisztrátor:** Olyan felhasználó, aki jogosult a rendszer termékeinek és felhasználóinak kezelésére.
++ **Specifikáció:** Termékek műszaki vagy fizikai jellemzői, pl. kaliber, anyag, súly, méretek stb.
