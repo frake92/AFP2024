@@ -1,13 +1,4 @@
-# Áttekintés
-
--html, javascript
--Webmarketplace fegyverek árulására(airsoft) -leírás, specifikáció, ára, évjárat, raktár mennyiség
--felhasználó - csak vásárolhasson - inventory, felhasználónév, jelszó, email cím, reg. idő, saját teljes név, szül. dátum(validáció)
--admin - csak feltölt, admin név, jelszó, rátekintés az összes fegyverre + felhasználókra rátekintés, jelszó változtatás felhasználónak,
--bejelentkezés/regisztráció - felh, email, jelszó, jelszó mégegyszer, szül.dátum, teljes név.
--fegyverek listázása.
-
-# 1. Bevezetés
+# 1. Áttekintés
 
 Ez a dokumentum egy olyan webes marketplace rendszer követelményeit írja le, amely airsoft fegyverek árulására szolgál. A rendszernek külön adminisztrációs és vásárlói oldala lesz. Az admin feladata a termékek feltöltése és a felhasználói adatok kezelése, míg a vásárlók csak regisztráció után tudnak termékeket megtekinteni és vásárolni.
 
