@@ -1,6 +1,6 @@
 # ShadowWeb
 
-Egy egyszerűen használható weboldal, ahol mindenféle airsoft fegyvereket lehet venni. 
+Egy egyszerűen használható weboldal, ahol mindenféle airsoft fegyvereket lehet venni.  
 A létrehozásához az alábbi technológiákat alkalmazzuk:
 
 + HTML és CSS
