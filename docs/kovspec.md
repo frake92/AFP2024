@@ -21,7 +21,6 @@ Jelenleg az airsoft fegyverek kereskedelme több webáruház és fizikai bolt ko
         A termékek megvásárlása több lépésben történik, ahol minden felhasználónak külön-külön fiókot kell létrehoznia.
         A vásárlás utáni információk (pl. inventory) nem mindig elérhetők egy helyen, így a felhasználók nem tudják egyszerűen nyomon követni, hogy milyen termékeket vásároltak.
         A vásárlók visszajelzéseket adhatnak a termékekről és a szolgáltatásokról.
-        A vásárlás után az ügyfelek visszaigazoló e-maileket kapnak, amelyek tartalmazzák a rendelés részleteit.
 
   Adminisztrátori folyamatok:
         Az adminisztrátorok különböző platformokon töltik fel a termékeket és kezelik a vásárlói információkat.
@@ -39,10 +38,21 @@ A vágyott rendszer az alábbiak szerint optimalizálja az üzleti folyamatokat:
         A vásárlók egy központosított marketplace felületet használhatnak, ahol minden termék egységesen, részletes specifikációkkal elérhető.
         Regisztráció után a felhasználók bejelentkezhetnek, és a korábbi vásárlásaik alapján nyomon követhetik az inventory-jukat.
         Egyszerűbb vásárlási folyamat, ahol minden vásárló egy fiókot használhat az összes tranzakcióhoz.
+        Termékeket adhatnak a kosárhoz, áttekinthetik a kosár tartalmát, és egyszerűen végrehajthatják a vásárlást.
+        Személyre szabott ajánlatok és promóciók megjelenítése a vásárlók korábbi vásárlásai és érdeklődési köre alapján.
 
   Adminisztrátori folyamatok:
         Az adminisztrátorok egyetlen felületen kezelhetik a termékeket és a felhasználói fiókokat.
         A rendszer lehetővé teszi a termékek egyszerű felvitelét, szerkesztését és törlését, valamint a felhasználói jelszavak módosítását.
+        Az adminisztrátorok új termékeket adhatnak hozzá a rendszerhez, részletes termékleírásokkal, árakkal és kategóriákkal.
+        A készlet szintjének figyelemmel kísérése és frissítése.
+        Felhasználói jogosultságok és hozzáférések kezelése.
+        Rendelések állapotának kezelése és frissítése.
+        Szállítás koordinálása, visszatérítések és cserék kezelése.
+        Az adatvédelmi előírások és jogszabályok betartása és kezelése.
+        Jogi és szabályozási dokumentációk kezelése.
+        Adatok szinkronizálása különböző platformok és rendszerek között.
+        Automatizált rendszerek alkalmazása az adateltérések minimalizálása érdekében.
 
 ## 6. Követelménylista
 
