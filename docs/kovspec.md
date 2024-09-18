@@ -21,7 +21,7 @@ A vásárlóinkon keresztül szeretnénk több emberhez eljutni.
 
 ## 3. Vágyálomrendszer
 
-A cél egy olyan webes marketplace fejlesztése, amely egységes és felhasználóbarát felületet biztosít mind a vásárlók, mind az adminisztrátorok számára. Az alábbiakban a rendszer funkcionális követelményei találhatók.
+A ShadowWeb marketplace weboldal célja egy olyan platform létrehozása, amely kiemelkedő minőséget biztosít Magyarországon az airsoft fegyverek vásárlásában és értékesítésében.  Az oldal felhasználóbarát kezelőfelülettel rendelkezik, illetve szigorú korhatár-szabályozást alkalmaz a biztonság érdekében. A weboldalt php, mysql és javascript nyelv segítségével valósítjuk meg.
 
 ## 4. Jelenlegi üzleti folyamatok modellje
 
