@@ -18,10 +18,16 @@ Jelenleg az airsoft fegyverek kereskedelme több webáruház és fizikai bolt ko
         A vásárlók meglátogatják a különböző platformokat, amelyek nem biztosítanak egységes terméklistát vagy kategóriákat.
         A termékek megvásárlása több lépésben történik, ahol minden felhasználónak külön-külön fiókot kell létrehoznia.
         A vásárlás utáni információk (pl. inventory) nem mindig elérhetők egy helyen, így a felhasználók nem tudják egyszerűen nyomon követni, hogy milyen termékeket vásároltak.
+        A vásárlók visszajelzéseket adhatnak a termékekről és a szolgáltatásokról.
+        A vásárlás után az ügyfelek visszaigazoló e-maileket kapnak, amelyek tartalmazzák a rendelés részleteit.
 
   Adminisztrátori folyamatok:
         Az adminisztrátorok különböző platformokon töltik fel a termékeket és kezelik a vásárlói információkat.
         A termékek kezelése és a vásárlói adatok módosítása több lépcsős és időigényes folyamat.
+        A vásárlói adatkezelés gyakran több lépésből áll, és figyelembe kell venni az adatvédelmi előírásokat.
+        Az adminisztrátorok feldolgozzák a beérkező rendeléseket, koordinálják a szállítást és kezelik a visszatérítéseket vagy cseréket.
+        Az adminisztrátorok jelentéseket készítenek az értékesítési adatokról, készletinformációkról és vásárlói visszajelzésekről.
+
 
 # 5. Igényelt üzleti folyamatok modellje
 
