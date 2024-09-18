@@ -2,11 +2,22 @@
 
 ## 1. Áttekintés
 
-Ez a dokumentum egy olyan webes marketplace rendszer követelményeit határozza meg, amely kifejezetten airsoft fegyverek értékesítésére szolgál. A weboldalunk célja, hogy az airsoft kedvelői számára egyszerűbbé és gyorsabbá tegye a jó minőségű airsoft fegyverek megtalálását és megvásárlását, de azok számára is kedvezhet az oldal akik nem jártasak ebben a témában, hiszen minden fegyverről információkat tud találni. A weboldalon több típusú és méretű fegyvert lehet megtalálni kategóriákra bontva, mint például a pisztolyok vagy a géppuskák. A vásárlók csak a regisztrációt követően kapnak hozzáférést a termékek részletes megtekintéséhez és a vásárlási funkciókhoz.
+Ez a dokumentum egy olyan webes marketplace rendszer követelményeit határozza meg, amely kifejezetten airsoft fegyverek értékesítésére szolgál. 
+A weboldalunk célja, hogy az airsoft kedvelői számára egyszerűbbé és gyorsabbá tegye a jó minőségű airsoft fegyverek megtalálását és megvásárlását, de azok számára is kedvezhet az oldal akik nem jártasak ebben a témában, hiszen minden fegyverről információkat tud találni. 
+A weboldalon több típusú és méretű fegyvert lehet megtalálni kategóriákra bontva, mint például a pisztolyok vagy a géppuskák. 
+A vásárlók csak a regisztrációt követően kapnak hozzáférést a termékek részletes megtekintéséhez és a vásárlási funkciókhoz.
 
 ## 2. A jelenlegi helyzet leírása
 
-Jelenleg az airsoft fegyverek vásárlása több különálló platformon történik, ahol az adminisztráció és a termékek kezelése nem teljesen egységes. Nincs egy olyan központosított felület, ahol az összes termék részletes specifikációkkal együtt megtalálható, és az adminisztrátorok egyszerűen kezelhetik az adatokat. A regisztráció és vásárlási folyamatok több lépcsősek és gyakran bonyolultak, ami csökkenti a felhasználói élményt. A ShadowWeb létre szeretne hozni egy olyan egységesen működő oldalt, amelyről minden felhasználó számára egyszerű kezelhetőséget tud biztosítai. Azokat is megpróbáljuk kiszűrni, akik 18 év alatt szeretnének airsoft fegyvert vásárolni. A fiókok létrehozását szigorúan korlátozzuk, hogy az illegális vásárlások ne történhessenek meg. Ezek mellett szeretnénk több felnőtt elvtárssal megismertetni ezt a fajta sportot. Biztosítjuk a fegyverek minőségét és szállítását. A vásárlóinkon keresztül szeretnénk több emberhez eljutni.
+Jelenleg az airsoft fegyverek vásárlása több különálló platformon történik, ahol az adminisztráció és a termékek kezelése nem teljesen egységes. 
+Nincs egy olyan központosított felület, ahol az összes termék részletes specifikációkkal együtt megtalálható, és az adminisztrátorok egyszerűen kezelhetik az adatokat. 
+A regisztráció és vásárlási folyamatok több lépcsősek és gyakran bonyolultak, ami csökkenti a felhasználói élményt. 
+A ShadowWeb létre szeretne hozni egy olyan egységesen működő oldalt, amelyről minden felhasználó számára egyszerű kezelhetőséget tud biztosítai. 
+Azokat is megpróbáljuk kiszűrni, akik 18 év alatt szeretnének airsoft fegyvert vásárolni. 
+A fiókok létrehozását szigorúan korlátozzuk, hogy az illegális vásárlások ne történhessenek meg. 
+Ezek mellett szeretnénk több felnőtt elvtárssal megismertetni ezt a fajta sportot. 
+Biztosítjuk a fegyverek minőségét és szállítását. 
+A vásárlóinkon keresztül szeretnénk több emberhez eljutni.
 
 ## 3. Vágyálomrendszer
 
