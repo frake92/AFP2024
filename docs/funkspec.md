@@ -18,7 +18,7 @@ Adminisztrátori szinten a rendszer biztosítja a termékek és felhasználói f
 
 ## 3. Jelenlegi üzleti folyamatok modellje
 
-# 3.1 Felhasználói folyamatok:
+### 3.1 Felhasználói folyamatok:
 
 + **Több platformon történő vásárlás:** A vásárlók több webáruházat vagy fizikai üzletet böngésznek, amelyek különböző termékinformációkat és specifikációkat nyújtanak. Ez megnehezíti az áruk összehasonlítását, és a vásárlási élmény gyakran hosszadalmas.
 
@@ -30,7 +30,7 @@ Adminisztrátori szinten a rendszer biztosítja a termékek és felhasználói f
 
 + **Vásárlás utáni nyomon követés:** A felhasználók számára nincs könnyen elérhető felület, ahol nyomon követhetnék korábbi vásárlásaikat, vagy tájékozódhatnának a termékek készletállapotáról.
 
-# 3.2 Adminisztrátori folyamatok:
+### 3.2 Adminisztrátori folyamatok:
 
 + **Több platform kezelése:** Az adminisztrátorok különálló felületeken keresztül kezelik a termékeket és a vásárlói adatokat, ami növeli az adminisztrációs terhelést és az adateltérések kockázatát.
 
