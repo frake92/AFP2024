@@ -129,6 +129,14 @@ többek között saját profil adataikhoz, tulajdonságaikhoz.
 + **K4** : A nem regisztált felhasználóknak készitettünk egy egyszerű regisztrációs panelt, ahol 
 néhány adat megadása után regisztrált felhasználók lesznek.
 
++ **K5** : A Főoldalon láthatóak lesznek az Airsoft fegyverek kinálata. Képre kattintva, átvezeti az 
+adott fegyverre, ahol megtalálhatóak lesznek, a fegyver adatai, leirása, ára, illeteve kép a 
+fegyverről nagyobb méretben.
+
++ **K6** : Az Adminok felületén láthatják, az adott Fegyver készlet számát, illetve Admin képes 
+feltölteni további fegyvereket a felhasználók számára. Továbbá képes módositani vagy törölni 
+felhasználókat.
+
 ## 8. Képernyőtervek
 
 ## 9. Forgatókönyvek
@@ -167,8 +175,10 @@ A következő részben a **felhasználó** jogosultsággal rendelkező felhaszn�
 A megtekintő funkciók mellett:
 
 + **Kijelentkezés:** A felhasználó bármikor kijelentkezhet, visszatérve a **bejelentkező** oldalra.
-+ **Saját raktár (inventory):** Minden felhasználónak saját raktára van, ahol a megvásárolt termékek tárolódnak. Minden felhasználó csak a saját **inventory**-ját tekintheti meg.
-+ **Termékek böngészése:** Minden felhasználó az oldalon található összes terméket látja és a termékek minden adatát és leírását elolvashatja.
++ **Saját raktár (inventory):** Minden felhasználónak saját raktára van, ahol a megvásárolt termékek 
+tárolódnak. Minden felhasználó csak a saját **inventory**-ját tekintheti meg.
++ **Termékek böngészése:** Minden felhasználó az oldalon található összes terméket látja és a 
+termékek minden adatát és leírását elolvashatja.
 + **Termékek vásárlása:** A termék megvásárlása után a termék pár munkanapon belül kiszálításra 
 kerül és azonnal bekerül a felhasználó raktárába. A termék csak akkor vásárolható meg, ha az adott 
 termékből van raktáron.
@@ -177,7 +187,8 @@ Végül az **admin** jogosultsággal rendelkező felhasználók lehetőségei.
 
 Az összes korábban említett funkció használata mellett:
 
-+ **Jogosultságok kezelése:** Az **admin**ok módosíthatják a felhasználók felhasználóneveit, jelszóit, jogosultsági szintjeit, és eltávolíthatják őket a rendszerből, ha szabálysértést észlelnek.
++ **Jogosultságok kezelése:** Az **admin**ok módosíthatják a felhasználók felhasználóneveit, 
+jelszóit, jogosultsági szintjeit, és eltávolíthatják őket a rendszerből, ha szabálysértést észlelnek.
 + **Termékek feltöltése:** Új termékeket tölthetnek fel. Ehhez meg kell adni a termék nevét, árá és 
 leírását, valamint képet is csatolni kell hozzá. Az elküldött termékek azonnal bekerülnek a 
 rendszerbe és minden felhasználó számára azonnal látható lesz.
