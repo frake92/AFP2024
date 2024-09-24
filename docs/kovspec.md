@@ -2,22 +2,17 @@
 
 ## 1. Áttekintés
 
-Ez a dokumentum egy olyan webes marketplace rendszer követelményeit határozza meg, amely kifejezetten airsoft fegyverek értékesítésére szolgál. 
-A weboldalunk célja, hogy az airsoft kedvelői számára egyszerűbbé és gyorsabbá tegye a jó minőségű airsoft fegyverek megtalálását és megvásárlását, de azok számára is kedvezhet az oldal akik nem jártasak ebben a témában, hiszen minden fegyverről információkat tud találni. 
-A weboldalon több típusú és méretű fegyvert lehet megtalálni kategóriákra bontva, mint például a pisztolyok vagy a géppuskák. 
-A vásárlók csak a regisztrációt követően kapnak hozzáférést a termékek részletes megtekintéséhez és a vásárlási funkciókhoz.
+Ez a dokumentum egy webalapú airsoft marketplace rendszer követelményeit határozza meg, amely lehetővé teszi airsoft fegyverek és kapcsolódó kiegészítők értékesítését és vásárlását egy központosított platformon. A weboldal célja az airsoft közösség kiszolgálása azáltal, hogy felhasználóbarát, gyors és hatékony módot biztosít a termékek felfedezésére és beszerzésére, miközben hangsúlyt fektet a biztonságra és a törvényi megfelelésre. Az airsoft fegyverek megvásárlása nemcsak a tapasztalt felhasználók, hanem kezdők számára is egyszerű és átlátható lesz, köszönhetően a részletes termékleírásoknak, kategorizált terméklistáknak és az intuitív keresési funkcióknak. A felhasználók különböző termékeket böngészhetnek, például airsoft pisztolyokat, gépfegyvereket, valamint tartozékokat, mint például védőfelszerelések vagy fegyverkiegészítők.
+
+A rendszer egyik kiemelt funkciója a felhasználók életkorának ellenőrzése, mivel csak a 18 éven felüliek regisztrálhatnak és vásárolhatnak airsoft fegyvereket. A vásárlók regisztráció és bejelentkezés után férhetnek hozzá a részletes termékadatokhoz és a vásárlási funkciókhoz, biztosítva a biztonságos és szabályozott kereskedelmi környezetet. Az oldal egyaránt támogatja a magánszemélyek vásárlását, valamint a nagyobb volumenű rendelések feldolgozását is, például airsoft csapatok vagy klubok számára. A weboldalt PHP, MySQL és JavaScript technológiákkal fejlesztjük, hogy modern és gyors felhasználói élményt biztosítsunk.
 
 ## 2. A jelenlegi helyzet leírása
 
-Jelenleg az airsoft fegyverek vásárlása több különálló platformon történik, ahol az adminisztráció és a termékek kezelése nem teljesen egységes. 
-Nincs egy olyan központosított felület, ahol az összes termék részletes specifikációkkal együtt megtalálható, és az adminisztrátorok egyszerűen kezelhetik az adatokat. 
-A regisztráció és vásárlási folyamatok több lépcsősek és gyakran bonyolultak, ami csökkenti a felhasználói élményt. 
-A ShadowWeb létre szeretne hozni egy olyan egységesen működő oldalt, amelyről minden felhasználó számára egyszerű kezelhetőséget tud biztosítai. 
-Azokat is megpróbáljuk kiszűrni, akik 18 év alatt szeretnének airsoft fegyvert vásárolni. 
-A fiókok létrehozását szigorúan korlátozzuk, hogy az illegális vásárlások ne történhessenek meg. 
-Ezek mellett szeretnénk több felnőtt elvtárssal megismertetni ezt a fajta sportot. 
-Biztosítjuk a fegyverek minőségét és szállítását. 
-A vásárlóinkon keresztül szeretnénk több emberhez eljutni.
+Jelenleg az airsoft fegyverek beszerzése Magyarországon töredezett piacon történik, ahol különálló, nem integrált webáruházak és fizikai boltok kínálják termékeiket. Ezek az áruházak nem mindig biztosítanak részletes információkat a termékekről, így a felhasználóknak különböző platformokon kell keresgélniük a megfelelő fegyvert, kiegészítőt vagy tartozékot. Az egyes platformok kezelése nehézkes lehet, mivel az airsoft termékek kategorizálása nem egységes, a vásárlási folyamat bonyolult, és gyakran több regisztráció szükséges, ha valaki több helyen kíván vásárolni.
+
+A jelenlegi piacon a vásárlók számára nem mindig egyértelműek a termékek paraméterei és minőségei, valamint hiányoznak a vásárlás utáni támogatási eszközök, mint például a készletkezelés vagy a vásárlási előzmények áttekinthetősége. A felhasználói élményt gyakran rontja a több lépcsős, időigényes vásárlási folyamat, ami visszatarthatja az érdeklődőket a vásárlástól. A különböző rendszerek közötti kommunikáció és adatmegosztás hiánya szintén problémát jelent, ami adateltéréseket és adminisztrációs nehézségeket eredményezhet.
+
+További kihívás, hogy nincs egységes életkor-ellenőrzési rendszer, amely biztosítaná, hogy a 18 év alatti felhasználók ne vásárolhassanak airsoft fegyvereket. A piacon jelenleg hiányzik az a központi platform, amely egyszerű, mégis hatékony megoldást nyújtana mind az eladók, mind a vásárlók számára, és amely megfelel az adatvédelmi és jogi követelményeknek.
 
 ## 3. Vágyálomrendszer
 
