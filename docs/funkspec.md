@@ -119,6 +119,32 @@ A weblap megnyitáskor a **Kezdőlap** fogad minket, ahol a felhasználó be tud
 jelenkezni, vagy regisztrálni a weboldalra. Mivel 18 éven felülieknek készült
 így itt csak
 
+<!-- Csak a 9.2-őt írtam meg 9.1-et még folytatni kell - Márk -->
+
+### 9.2 Jogosultsági szintek lehetőségei
+
+Az alábbiakban bemutatom a **megtekintő** státusszal (nem bejelentkezett felhasználó) elérhető funkciókat:
+
++ **Bejelentkezés:** Ha a felhasználó már rendelkezik fiókkal, az adatai megadásával bejelentkezhet.
++ **Regisztráció:** Ha a felhasználó még nem rendelkezik fiókkal, a szükséges adatok megadásával regisztrálhat.
+A **nem bejelentkezett** felhasználó nem láthatja a főoldalt, csak a bejelentkező és a regisztrációs oldalt.
+
+A következő részben a **felhasználó** jogosultsággal rendelkező felhasználók lehetőségeit mutatom be.
+
+A megtekintő funkciók mellett:
+
++ **Kijelentkezés:** A felhasználó bármikor kijelentkezhet, visszatérve a **bejelentkező** oldalra.
++ **Saját raktár (inventory):** Minden felhasználónak saját raktára van, ahol a megvásárolt termékek tárolódnak. Minden felhasználó csak a saját **inventory**-ját tekintheti meg.
++ **Termékek böngészése:** Minden felhasználó az oldalon található összes terméket látja és a termékek minden adatát és leírását elolvashatja.
++ **Termékek vásárlása:** A termék megvásárlása után a termék pár munkanapon belül kiszálításra kerül és azonnal bekerül a felhasználó raktárába. A termék csak akkor vásárolható meg, ha az adott termékből van raktáron.
+
+Végül az **admin** jogosultsággal rendelkező felhasználók lehetőségei.
+
+Az összes korábban említett funkció használata mellett:
+
++ **Jogosultságok kezelése:** Az **admin**ok módosíthatják a felhasználók felhasználóneveit, jelszóit, jogosultsági szintjeit, és eltávolíthatják őket a rendszerből, ha szabálysértést észlelnek.
++ **Termékek feltöltése:** Új termékeket tölthetnek fel. Ehhez meg kell adni a termék nevét, árá és leírását, valamint képet is csatolni kell hozzá. Az elküldött termékek azonnal bekerülnek a rendszerbe és minden felhasználó számára azonnal látható lesz.
+
 ## 10. Funkció - követelmény megfeleltetése
 
 | Id  | Követelmény | Funkció |
