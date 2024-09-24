@@ -101,9 +101,19 @@ Minden újonnan feltöltött termék alapos ellenőrzésen és hitelesítésen m
 
 ## 6. Használati esetek
 
-+ **ADMIN:** Feladatuk a rendszer felügyelete, ellenőrizni tudják a rendszer és a funkciók hibamentes üzemelését. Hozzáférnek a felhasználók listájához, módosítani tudja a felhasználók adatait. Emellett új felhasználókat adhatnak a rendszerhez, vagy egy már meglévőt is eltávolíthatnak belőle, ha az adott fiók valamilyen szabályt sért meg. Az ő dolguk az új termékek feltöltése a rendszerbe. Emellett az ő dolguk a kifogyott termékek feltöltése a rendszerbe.
-+ **FELHASZNÁLÓ:** A fiók létrehozását követően a felhasználók teljes hozzáférést kapnak az oldal alapvető funkcióihoz. Minden felhasználónak saját egyedi készlete, inventory-ja van, ahol a megvásárolt termékek kerülnek tárolásra. A felhasználók kizárólag a saját inventory-jukat láthatják. Az oldalon elérhető összes terméket megtekinthetik, böngészhetik a részletes adatlapokat, és lehetőségük van a termékek megvásárlására is.
-+ **MEGTEKINTŐ:** Mivel az oldal használata kizárólag 18 éven felüli felhasználók számára engedélyezett a vonatkozó jogszabályok értelmében, a termékek megtekintése csak regisztrált és életkor-ellenőrzött felhasználói fiókkal lehetséges.
++ **ADMIN:** Feladatuk a rendszer felügyelete, ellenőrizni tudják a rendszer és a funkciók 
+hibamentes üzemelését. Hozzáférnek a felhasználók listájához, módosítani tudja a felhasználók 
+adatait. Emellett új felhasználókat adhatnak a rendszerhez, vagy egy már meglévőt is eltávolíthatnak 
+belőle, ha az adott fiók valamilyen szabályt sért meg. Az ő dolguk az új termékek feltöltése a 
+rendszerbe. Emellett az ő dolguk a kifogyott termékek feltöltése a rendszerbe.
++ **FELHASZNÁLÓ:** A fiók létrehozását követően a felhasználók teljes hozzáférést kapnak az oldal 
+alapvető funkcióihoz. Minden felhasználónak saját egyedi készlete, inventory-ja van, ahol a 
+megvásárolt termékek kerülnek tárolásra. A felhasználók kizárólag a saját inventory-jukat láthatják. 
+Az oldalon elérhető összes terméket megtekinthetik, böngészhetik a részletes adatlapokat, és 
+lehetőségük van a termékek megvásárlására is.
++ **MEGTEKINTŐ:** Mivel az oldal használata kizárólag 18 éven felüli felhasználók számára 
+engedélyezett a vonatkozó jogszabályok értelmében, a termékek megtekintése csak regisztrált és 
+életkor-ellenőrzött felhasználói fiókkal lehetséges.
 
 ## 7. Megfeleltetés, hogyan fedik le a használati eseteket a követelményeket
 
@@ -117,17 +127,28 @@ Minden újonnan feltöltött termék alapos ellenőrzésen és hitelesítésen m
 
 A weblap megnyitáskor a **Kezdőlap** fogad minket, ahol a felhasználó be tud
 jelenkezni, vagy regisztrálni a weboldalra. Mivel 18 éven felülieknek készült
-így itt csak
+így itt csak a kezdőlapot tudja megnyitni. Felhasználó választhat, hogy be regisztrál, vagy ha már 
+létezik fiókja akkor bejelentkezik. Ha elfelejtette a jelszavát, van rá lehetőség, hogy újat 
+állitson be.
+
+Az alábbiakban bemutatom a **megtekintő** státusszal (nem bejelentkezett felhasználó) elérhető 
+funkciókat:
+
++ A **Regisztráció** Gobmra kattintva megjelenik a regisztrációs részleg. A felhasználók pár 
+fontosabb adat megadása után példálul: Felhasználó név, Szüldátum, Email adatok felvétele után sikeresen regisztálva beléphet a ShadowWeb oldalra.
++ A **Belépés** Gomb nyomás előtt meg kell adnia a már kész regisztrált Felhasználó profilját, hogy 
+be tudjon lépni Például: felhasználónév/email, jelszó. Ezek megadása után egy lefut egy validáció 
+ami ellenőrzi az adatbázisból, hogy már létezik-e ez a felhasználó, ha igen be engedi. Ha nem 
+üzenetet küld hogy sajnos nem létezik.
++ A **Nem bejelentkezett** nem láthatja a főoldalt, csak a Bejelentkezési részleget képes látni.
+
++ Végezetül a **Elfelejtett jelszó** gomb kattintására az elfelejtett jelszót át tudja állitani a felhasználó, hogy zökkenőmentesen tudjon tovább keresni a weboldalunkon.
 
 <!-- Csak a 9.2-őt írtam meg 9.1-et még folytatni kell - Márk -->
 
 ### 9.2 Jogosultsági szintek lehetőségei
 
-Az alábbiakban bemutatom a **megtekintő** státusszal (nem bejelentkezett felhasználó) elérhető funkciókat:
 
-+ **Bejelentkezés:** Ha a felhasználó már rendelkezik fiókkal, az adatai megadásával bejelentkezhet.
-+ **Regisztráció:** Ha a felhasználó még nem rendelkezik fiókkal, a szükséges adatok megadásával regisztrálhat.
-A **nem bejelentkezett** felhasználó nem láthatja a főoldalt, csak a bejelentkező és a regisztrációs oldalt.
 
 A következő részben a **felhasználó** jogosultsággal rendelkező felhasználók lehetőségeit mutatom be.
 
