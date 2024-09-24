@@ -18,6 +18,28 @@ Adminisztrátori szinten a rendszer biztosítja a termékek és felhasználói f
 
 ## 3. Jelenlegi üzleti folyamatok modellje
 
+# 3.1 Felhasználói folyamatok:
+
++ **Több platformon történő vásárlás:** A vásárlók több webáruházat vagy fizikai üzletet böngésznek, amelyek különböző termékinformációkat és specifikációkat nyújtanak. Ez megnehezíti az áruk összehasonlítását, és a vásárlási élmény gyakran hosszadalmas.
+
++ **Regisztrációs folyamat:** Minden egyes áruházhoz külön fiókot kell létrehozni, ami többszörös regisztrációs kötelezettséget jelent.
+
++ **Vásárlási és fizetési folyamatok:** A vásárlás több lépésből áll, és nem biztosított az egyszerű, integrált fizetési lehetőség. A vásárlási folyamat bonyolultsága sokszor visszatartja a potenciális vásárlókat.
+
++ **Életkor-ellenőrzés hiánya:** Nincs központilag szabályozott életkor-ellenőrzés, így nehéz megakadályozni, hogy 18 év alatti személyek airsoft fegyvert vásároljanak.
+
++ **Vásárlás utáni nyomon követés:** A felhasználók számára nincs könnyen elérhető felület, ahol nyomon követhetnék korábbi vásárlásaikat, vagy tájékozódhatnának a termékek készletállapotáról.
+
+# 3.2 Adminisztrátori folyamatok:
+
++ **Több platform kezelése:** Az adminisztrátorok különálló felületeken keresztül kezelik a termékeket és a vásárlói adatokat, ami növeli az adminisztrációs terhelést és az adateltérések kockázatát.
+
++ **Termékfeltöltés és karbantartás:** A termékek felvitele és módosítása bonyolult, és nincs egységesített rendszer a készletek követésére.
+
++ **Szabálysértő felhasználók kezelése:** Az adminisztrátoroknak nincs központi eszközük arra, hogy egyszerűen eltávolítsák a szabálysértő felhasználókat vagy figyelemmel kísérjék a visszaéléseket.
+
++ **Adatvédelmi kihívások:** Az adatvédelmi előírások betartása nehézségekbe ütközik, mivel a rendszerek különállóan működnek, és nincs központi felügyeleti eszköz.
+
 ## 4. Igényelt üzleti folyamatok modellje
 
 ## 5. Követelménylista
