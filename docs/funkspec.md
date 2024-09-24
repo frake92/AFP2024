@@ -22,11 +22,14 @@ platformokon történő kereskedelem esetén.
 
 ## 2. Vágyálomrendszer leírása
 
-Az airsoft marketplace új rendszerének célja egy egységes, modern platform létrehozása, amely átlátható és egyszerű felhasználói élményt biztosít mind a vásárlók, mind az adminisztrátorok számára. Az új rendszer lehetővé teszi, hogy a felhasználók egy központi felületen keressék és vásárolják meg a kívánt airsoft fegyvereket és kiegészítőket. A platform részletes termékleírásokat, kategóriákat és specifikációkat biztosít, ami segíti a felhasználókat a megfelelő választásban.
+Az airsoft marketplace új rendszerének célja egy egységes, modern platform létrehozása, amely átlátható és egyszerű felhasználói élményt biztosít mind a vásárlók, mind az adminisztrátorok számára.
+Az új rendszer lehetővé teszi, hogy a felhasználók egy központi felületen keressék és vásárolják meg a kívánt airsoft fegyvereket és kiegészítőket. A platform részletes termékleírásokat, kategóriákat és specifikációkat biztosít, ami segíti a felhasználókat a megfelelő választásban.
 
-Az oldal regisztrációhoz kötött, és csak 18 év feletti személyek számára elérhető. A felhasználók regisztráció után saját fiókot hozhatnak létre, ahol nyomon követhetik korábbi vásárlásaikat és kezelhetik inventory-jukat. Az egyszerűsített vásárlási folyamat lehetővé teszi, hogy egyetlen fiókkal végezzék el minden tranzakciójukat, és személyre szabott ajánlatokat kapjanak korábbi vásárlásaik alapján.
+Az oldal regisztrációhoz kötött, és csak 18 év feletti személyek számára elérhető. A felhasználók regisztráció után saját fiókot hozhatnak létre, ahol nyomon követhetik korábbi vásárlásaikat és kezelhetik inventory-jukat.
+Az egyszerűsített vásárlási folyamat lehetővé teszi, hogy egyetlen fiókkal végezzék el minden tranzakciójukat, és személyre szabott ajánlatokat kapjanak korábbi vásárlásaik alapján.
 
-Adminisztrátori szinten a rendszer biztosítja a termékek és felhasználói fiókok egyszerű kezelését. Az adminisztrátorok hozzáférnek a felhasználók adataihoz, és szabályozhatják a hozzáféréseket. Az új termékek feltöltése, szerkesztése és törlése egyszerű folyamat lesz, és a rendszer figyelemmel kíséri a készleteket is. Ezenkívül az adminisztrátorok jogosultak új felhasználók hozzáadására vagy szabálysértők eltávolítására. A rendszer automatikusan biztosítja az adatvédelemre és a jogszabályokra vonatkozó előírások betartását.
+Adminisztrátori szinten a rendszer biztosítja a termékek és felhasználói fiókok egyszerű kezelését. Az adminisztrátorok hozzáférnek a felhasználók adataihoz, és szabályozhatják a hozzáféréseket. Az új termékek feltöltése, szerkesztése és törlése egyszerű folyamat lesz, és a rendszer figyelemmel kíséri a készleteket is.
+Ezenkívül az adminisztrátorok jogosultak új felhasználók hozzáadására vagy szabálysértők eltávolítására. A rendszer automatikusan biztosítja az adatvédelemre és a jogszabályokra vonatkozó előírások betartását.
 
 ## 3. Jelenlegi üzleti folyamatok modellje
 
@@ -66,6 +69,13 @@ rendszerek különállóan működnek, és nincs központi felügyeleti eszköz.
 
 ## 4. Igényelt üzleti folyamatok modellje
 
+Ez az oldal az airsoft iránt érdeklődők és gyakorlott játékosok számára készült, hogy könnyen és gyorsan megtalálják a szükséges felszerelést és fegyvereket.
+Az oldal rendszeresen frissül, hogy a legújabb termékek és fejlesztések mindig elérhetőek legyenek. A folyamatosan frissített kínálat biztosítja, hogy a legmodernebb airsoft fegyverek, kiegészítők és védőfelszerelések mindig naprakészek legyenek.
+
+Minden vásárló könnyedén megtalálhatja a neki megfelelő fegyvereket és kiegészítőket, akár kezdő, akár profi szinten játszik.
+A 18 év alatti személyek nem férhetnek hozzá az oldalhoz, ezáltal csak egy szülői profillal lehet vásárolni, hiszen a felhasználói fiók létrehozásakor szigorúan figyeljük, hogy 18 év alatti profilok ne kerülhessenek be a rendszerbe.
+Minden újonnan feltöltött termék alapos ellenőrzésen és hitelesítésen megy keresztül, hogy garantáljuk a minőséget és megfeleljenek a jogszabályoknak.
+
 ## 5. Követelménylista
 
 | Id | Modul | Név | Leírás |
@@ -75,8 +85,8 @@ rendszerek különállóan működnek, és nincs központi felügyeleti eszköz.
 ## 6. Használati esetek
 
 + **ADMIN:** Feladatuk a rendszer felügyelete, ellenőrizni tudják a rendszer és a funkciók hibamentes üzemelését. Hozzáférnek a felhasználók listájához, módosítani tudja a felhasználók adatait. Emellett új felhasználókat adhatnak a rendszerhez, vagy egy már meglévőt is eltávolíthatnak belőle, ha az adott fiók valamilyen szabályt sért meg. Az ő dolguk az új termékek feltöltése a rendszerbe. Emellett az ő dolguk a kifogyott termékek feltöltése a rendszerbe.
-+ **FELHASZNÁLÓ:** A fiók létrehozása után minden alapvető funkcióhoz hozzáfér. Minden felhasználónak saját inventory-ja van ahol a megvásárolt termékek tárolódnak. Minden felhasználó csak a saját inventory-ját tekintheti meg. Az oldalon lévő összes terméket látja, megtekintheti a termékek adatait és meg is vásárolhatja azokat. 
-+ **MEGTEKINTŐ:** Mivel az oldalt csak 18 éven felülieknek lehet használni, így felhasználói fiók nélkül nem lehet megtekinteni a termékeket.
++ **FELHASZNÁLÓ:** A fiók létrehozását követően a felhasználók teljes hozzáférést kapnak az oldal alapvető funkcióihoz. Minden felhasználónak saját egyedi készlete, inventory-ja van, ahol a megvásárolt termékek kerülnek tárolásra. A felhasználók kizárólag a saját inventory-jukat láthatják. Az oldalon elérhető összes terméket megtekinthetik, böngészhetik a részletes adatlapokat, és lehetőségük van a termékek megvásárlására is.
++ **MEGTEKINTŐ:** Mivel az oldal használata kizárólag 18 éven felüli felhasználók számára engedélyezett a vonatkozó jogszabályok értelmében, a termékek megtekintése csak regisztrált és életkor-ellenőrzött felhasználói fiókkal lehetséges.
 
 ## 7. Megfeleltetés, hogyan fedik le a használati eseteket a követelményeket
 <!-- Folyamatban FL-->
