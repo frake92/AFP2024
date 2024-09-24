@@ -117,7 +117,17 @@ engedélyezett a vonatkozó jogszabályok értelmében, a termékek megtekintés
 
 ## 7. Megfeleltetés, hogyan fedik le a használati eseteket a követelményeket
 
-<!-- Folyamatban FL-->
++ **K1**,**K2** : A weboldalt úgy készitettük, hogy megnyitásakor a bejelnetkezési oldalt látják, 
+mivel egy 18 éven felüli weboldalról beszélünk ezért szeretnénk hogy diszkrétek maradhassunk a 
+weboldalunkhoz. igy nem 18 éven aluli gyerekek nem férhetnek hozzá az Airsoft fegyverek 
+kinálataihoz. Ezért vagy létre kell hozni egy fiókot, vagy ha már megtörtént a létrehozás, akkor be 
+kell jelentkezniük a  weboldalra.
+
++ **K3** : A bejelentkezett felhasználók hozzáférést kapnak adott termékekre amit eladásra kinálunk. 
+többek között saját profil adataikhoz, tulajdonságaikhoz.
+
++ **K4** : A nem regisztált felhasználóknak készitettünk egy egyszerű regisztrációs panelt, ahol 
+néhány adat megadása után regisztrált felhasználók lesznek.
 
 ## 8. Képernyőtervek
 
@@ -135,14 +145,16 @@ Az alábbiakban bemutatom a **megtekintő** státusszal (nem bejelentkezett felh
 funkciókat:
 
 + A **Regisztráció** Gobmra kattintva megjelenik a regisztrációs részleg. A felhasználók pár 
-fontosabb adat megadása után példálul: Felhasználó név, Szüldátum, Email adatok felvétele után sikeresen regisztálva beléphet a ShadowWeb oldalra.
+fontosabb adat megadása után példálul: Felhasználó név, Szüldátum, Email adatok felvétele után 
+sikeresen regisztálva beléphet a ShadowWeb oldalra.
 + A **Belépés** Gomb nyomás előtt meg kell adnia a már kész regisztrált Felhasználó profilját, hogy 
 be tudjon lépni Például: felhasználónév/email, jelszó. Ezek megadása után egy lefut egy validáció 
 ami ellenőrzi az adatbázisból, hogy már létezik-e ez a felhasználó, ha igen be engedi. Ha nem 
 üzenetet küld hogy sajnos nem létezik.
 + A **Nem bejelentkezett** nem láthatja a főoldalt, csak a Bejelentkezési részleget képes látni.
 
-+ Végezetül a **Elfelejtett jelszó** gomb kattintására az elfelejtett jelszót át tudja állitani a felhasználó, hogy zökkenőmentesen tudjon tovább keresni a weboldalunkon.
++ Végezetül a **Elfelejtett jelszó** gomb kattintására az elfelejtett jelszót át tudja állitani a 
+felhasználó, hogy zökkenőmentesen tudjon tovább keresni a weboldalunkon.
 
 <!-- Csak a 9.2-őt írtam meg 9.1-et még folytatni kell - Márk -->
 
@@ -157,14 +169,18 @@ A megtekintő funkciók mellett:
 + **Kijelentkezés:** A felhasználó bármikor kijelentkezhet, visszatérve a **bejelentkező** oldalra.
 + **Saját raktár (inventory):** Minden felhasználónak saját raktára van, ahol a megvásárolt termékek tárolódnak. Minden felhasználó csak a saját **inventory**-ját tekintheti meg.
 + **Termékek böngészése:** Minden felhasználó az oldalon található összes terméket látja és a termékek minden adatát és leírását elolvashatja.
-+ **Termékek vásárlása:** A termék megvásárlása után a termék pár munkanapon belül kiszálításra kerül és azonnal bekerül a felhasználó raktárába. A termék csak akkor vásárolható meg, ha az adott termékből van raktáron.
++ **Termékek vásárlása:** A termék megvásárlása után a termék pár munkanapon belül kiszálításra 
+kerül és azonnal bekerül a felhasználó raktárába. A termék csak akkor vásárolható meg, ha az adott 
+termékből van raktáron.
 
 Végül az **admin** jogosultsággal rendelkező felhasználók lehetőségei.
 
 Az összes korábban említett funkció használata mellett:
 
 + **Jogosultságok kezelése:** Az **admin**ok módosíthatják a felhasználók felhasználóneveit, jelszóit, jogosultsági szintjeit, és eltávolíthatják őket a rendszerből, ha szabálysértést észlelnek.
-+ **Termékek feltöltése:** Új termékeket tölthetnek fel. Ehhez meg kell adni a termék nevét, árá és leírását, valamint képet is csatolni kell hozzá. Az elküldött termékek azonnal bekerülnek a rendszerbe és minden felhasználó számára azonnal látható lesz.
++ **Termékek feltöltése:** Új termékeket tölthetnek fel. Ehhez meg kell adni a termék nevét, árá és 
+leírását, valamint képet is csatolni kell hozzá. Az elküldött termékek azonnal bekerülnek a 
+rendszerbe és minden felhasználó számára azonnal látható lesz.
 
 ## 10. Funkció - követelmény megfeleltetése
 
@@ -173,3 +189,6 @@ Az összes korábban említett funkció használata mellett:
 | K1  | ...         | ...     |
 
 ## 11 Fogalomszótár
++ **Validáció:** A validáció az a folyamat, amelynek során ellenőrizzük, hogy a bemenetek 
+megfelelnek-e a meghatározott szabályoknak és elvárásoknak. Ez biztosítja, hogy a rendszer 
+megfelelően működjön és elkerülje a hibákat.
