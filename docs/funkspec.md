@@ -2,6 +2,12 @@
 
 ## 1. Jelenlegi helyzet leírása
 
+Jelenleg az airsoft fegyverek beszerzése töredezett piacon történik, ahol különböző webáruházak és fizikai üzletek kínálják termékeiket. A vásárlóknak számos különböző forrást kell böngészniük, hogy megtalálják a megfelelő terméket, ami időigényes és gyakran nem biztosít elég információt a döntéshozatalhoz. Az egyes boltok és platformok nem rendelkeznek egységes rendszerrel a termékek kategorizálására és bemutatására, ami gyakran zavarja a felhasználói élményt.
+
+A vásárlási folyamat gyakran több lépésből áll, és a vásárlóknak külön regisztráció szükséges minden platformon. A termékekről nem állnak rendelkezésre egységes specifikációk, így a felhasználók nem mindig tudják egyszerűen összehasonlítani a termékeket. A rendszer hiányosságai közé tartozik az is, hogy nincs életkor-ellenőrzés, így nehéz garantálni, hogy 18 év alattiak ne vásároljanak airsoft fegyvereket. Továbbá, a vásárlók nem kapnak megfelelő támogatást a vásárlás után, például a termékek nyomon követése vagy készletinformációk tekintetében.
+
+Adminisztrátori szempontból az airsoft termékek kezelése bonyolult és időigényes, mivel nincs központosított rendszer, amely lehetővé tenné a termékek egyszerű feltöltését, szerkesztését és törlését. Az adatvédelem és a törvényi előírások betartása nehézségekbe ütközik a különálló platformokon történő kereskedelem esetén.
+
 ## 2. Vágyálomrendszer leírása
 
 ## 3. Jelenlegi üzleti folyamatok modellje
