@@ -13,7 +13,6 @@
         $count = mysqli_num_rows($result);
 
         if($count==1) {
-            $_SESSION['logged_in'] = true;
             echo "<script>alert('Sikeres belépés!'); window.location.href='marketplace.php';</script>";
         } else {
             echo '<script>

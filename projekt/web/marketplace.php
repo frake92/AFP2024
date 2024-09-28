@@ -1,7 +1,7 @@
 <?php
   include("connection.php");
   session_start();
-  if(!isset($_SESSION['logged_in']) || $_SESSION['logged_in'] !== true) {
+  if(!isset($_SESSION['id'])) {
     header('Location: loginpage.php');
     exit();
   }
