@@ -51,14 +51,40 @@ A rendszer célja egy központosított airsoft marketplace létrehozása, amely 
 | K4 | ... | ... |
 
 ### Támogatott eszközök
+  * Böngészők: Chrome, Firefox, Safari, Edge
+  * Mobil eszközök: iOS, Android
 
 ## 5. Funkcionális terv
 
 ### 5.1 Rendszerszereplők
+  * Felhasználók
+  * Adminisztrátorok
+  * Rendszer
 
 ### 5.2 Menühierarchiák
+* Főoldal
+  *  Termékek
+        * Fegyverek
+        * Kiegészítők
+    Bejelentkezés
+    Regisztráció
+    Profil
 
 ## 6. Fizikai környezet
+
+### Vásárolt softwarekomponensek és külső rendszerek
+* Webszerver szoftver (pl. Apache)
+* Adatbázis-kezelő (pl. MySQL)
+* Kliens oldali keretrendszer
+### Hardver topológia
+* Webszerver: VPS vagy dedikált szerver
+* Adatbázis szerver: VPS vagy dedikált szerver
+### Fizikai alrendszerek
+* Tűzfalak
+* Hálózati eszközök
+### Fejlesztő eszközök
+* IDE (pl. Visual Studio Code)
+* Verziókezelő (pl. Git)
 
 ### Vásárolt softwarekomponensek és külső rendszerek
 
