@@ -1,20 +1,17 @@
 # Rendszerterv
 ## 1. A rendszer célja
 
-A rendszer célja egy központosított airsoft marketplace létrehozása, amely lehetővé teszi a felhasználók számára, hogy könnyedén vásároljanak és értékesítsenek airsoft fegyvereket és kiegészítőket, miközben biztosítja a biztonságos vásárlási környezetet és a jogszabályi megfelelést.
-
 ## 2. Projektterv
 
 ### 2.1 Projektszerepkörök, felelőségek:
-   * Scrum masters: Fejlesztési folyamat irányítása, sprint tervezése és nyomon követése.
-   * Product owner: A projekt víziójának meghatározása, követelmények összegyűjtése és priorizálása.
-   * Üzleti szereplő: A piaci igények és a célközönség visszajelzéseinek összegyűjtése, a termék pozicionálása.
-
+   * Scrum masters:
+   * Product owner: 
+   * Üzleti szereplő:
      
 ### 2.2 Projektmunkások és felelőségek:
-   * Frontend: Felhasználói felület tervezése és implementálása (HTML, CSS, JavaScript).
-   * Backend: Adatbázis-kezelés, üzleti logika megvalósítása (PHP, MySQL).
-   * Tesztelés: Funkcionális és nem funkcionális tesztek végrehajtása, hibák azonosítása és dokumentálása.
+   * Frontend:
+   * Backend:
+   * Tesztelés:
      
 ### 2.3 Ütemterv:
 
@@ -30,9 +27,6 @@ A rendszer célja egy központosított airsoft marketplace létrehozása, amely 
 ## 3. Üzleti folyamatok modellje
 
 ### 3.1 Üzleti szereplők
-   * Vásárlók: Kereskedők és magánszemélyek, akik termékeket vásárolnak.
-   * Eladók: Magánszemélyek vagy cégek, akik termékeket kínálnak.
-   * Adminisztrátorok: A rendszer felügyelete és a termékek kezelése.
 
 ### 3.2 Üzleti folyamatok
 
@@ -51,40 +45,14 @@ A rendszer célja egy központosított airsoft marketplace létrehozása, amely 
 | K4 | ... | ... |
 
 ### Támogatott eszközök
-  * Böngészők: Chrome, Firefox, Safari, Edge
-  * Mobil eszközök: iOS, Android
 
 ## 5. Funkcionális terv
 
 ### 5.1 Rendszerszereplők
-  * Felhasználók
-  * Adminisztrátorok
-  * Rendszer
 
 ### 5.2 Menühierarchiák
-* Főoldal
-  *  Termékek
-        * Fegyverek
-        * Kiegészítők
-    Bejelentkezés
-    Regisztráció
-    Profil
 
 ## 6. Fizikai környezet
-
-### Vásárolt softwarekomponensek és külső rendszerek
-* Webszerver szoftver (pl. Apache)
-* Adatbázis-kezelő (pl. MySQL)
-* Kliens oldali keretrendszer
-### Hardver topológia
-* Webszerver: VPS vagy dedikált szerver
-* Adatbázis szerver: VPS vagy dedikált szerver
-### Fizikai alrendszerek
-* Tűzfalak
-* Hálózati eszközök
-### Fejlesztő eszközök
-* IDE (pl. Visual Studio Code)
-* Verziókezelő (pl. Git)
 
 ### Vásárolt softwarekomponensek és külső rendszerek
 
