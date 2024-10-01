@@ -1,12 +1,15 @@
 # Rendszerterv
 ## 1. A rendszer célja
 
+A rendszer célja egy központosított airsoft marketplace létrehozása, amely lehetővé teszi a felhasználók számára, hogy könnyedén vásároljanak és értékesítsenek airsoft fegyvereket és kiegészítőket, miközben biztosítja a biztonságos vásárlási környezetet és a jogszabályi megfelelést.
+
 ## 2. Projektterv
 
 ### 2.1 Projektszerepkörök, felelőségek:
-   * Scrum masters:
-   * Product owner: 
-   * Üzleti szereplő:
+   * Scrum masters: Fejlesztési folyamat irányítása, sprint tervezése és nyomon követése.
+   * Product owner: A projekt víziójának meghatározása, követelmények összegyűjtése és priorizálása.
+   * Üzleti szereplő: A piaci igények és a célközönség visszajelzéseinek összegyűjtése, a termék pozicionálása.
+
      
 ### 2.2 Projektmunkások és felelőségek:
    * Frontend:
