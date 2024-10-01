@@ -64,8 +64,7 @@ function createUser($conn, $data) {
     $password = $data['password'];
     $email = $data['email'];
     $birthdate = $data['birthdate'];
-    $role = $data['role'];
-    $sql = "INSERT INTO users (username, password, email, birthdate, role) VALUES ('$username', '$password', '$email', '$birthdate', '$role')";
+    $sql = "INSERT INTO users (username, password, email, birthdate) VALUES ('$username', '$password', '$email', '$birthdate')";
     if ($conn->query($sql) === TRUE) {
         $userId = $conn->insert_id;
         echo json_encode(array("message" => "Felhasználó sikeresen feltöltve", "id" => $userId));

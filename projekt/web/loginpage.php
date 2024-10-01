@@ -1,5 +1,5 @@
 <?php 
-  include("connection.php");
+  require_once './API/connection.php';
 ?>
 
 <!DOCTYPE html>

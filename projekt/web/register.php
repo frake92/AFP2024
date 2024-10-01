@@ -1,5 +1,5 @@
 <?php
-    include("connection.php");
+    include("./API/connection.php");
 
     if ($_SERVER["REQUEST_METHOD"] == "POST") {
         $firstName = $conn->real_escape_string($_POST['firstName']);
