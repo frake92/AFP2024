@@ -56,21 +56,14 @@
         <h1 class="form-title">Regisztráció</h1>
 
         <form method="POST" action="register.php">
-          <div class="input-group">
-            <input
-              type="text"
-              name="lastName"
-              id="lastName"
-              placeholder="Vezetéknév"
-              required
-            />
+          
           </div>
           <div class="input-group">
             <input
               type="text"
-              name="firstName"
-              id="firstName"
-              placeholder="Keresztnév"
+              name="Username"
+              id="Username"
+              placeholder="Felhasználónév"
               required
             />
           </div>
