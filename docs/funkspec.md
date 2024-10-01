@@ -197,7 +197,19 @@ rendszerbe és minden felhasználó számára azonnal látható lesz.
 
 | Id  | Követelmény | Funkció |
 | :-: | ----------- | ------- |
-| K1  | ...         | ...     |
+| K1  | Bejelentkezési oldal|Az oldal megnyitásakor a nem bejelentkezett felhasználókat egy bejelentkezési és regisztrációs oldal fogadja. |
+| K2 | Felhasználói regisztráció | Felhasználók egy egyszerű regisztrációs folyamat során hozhatják létre a fiókjukat. |
+| K3 | Bejelentkezés | A rendszer ellenőrzi, hogy a felhasználó érvényes adatokkal rendelkezik-e, és engedélyezi a belépést. |
+| K4 | Piac oldal | Bejelentkezett felhasználók böngészhetik az elérhető termékeket, megtekinthetik azok részletes adatait. |
+| K5 | Termék vásárlás | A bejelentkezett felhasználók vásárolhatnak termékeket, amelyek a raktárukba kerülnek. |
+| K6 | Admin felület | Az adminok új termékeket adhatnak hozzá, szerkeszthetik és törölhetik a meglévőket. |
+| K7 | Jogosultsági szintek | Admin felhasználók kezelhetik a jogosultságokat, felhasználókat módosíthatnak, illetve eltávolíthatnak. |
+| K8 | Termék készlet kezelés | Adminok figyelhetik és menedzselhetik a készleteket, és szükség esetén új termékeket tölthetnek fel. |
+| K9 | Életkor-ellenőrzés | A regisztráció során biztosított életkor-ellenőrzés megakadályozza, hogy 18 év alatti felhasználók regisztráljanak. |
+
+
+
+
 
 ## 11 Fogalomszótár
 + **Validáció:** A validáció az a folyamat, amelynek során ellenőrizzük, hogy a bemenetek 
