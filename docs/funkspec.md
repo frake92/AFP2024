@@ -212,6 +212,10 @@ rendszerbe és minden felhasználó számára azonnal látható lesz.
 
 
 ## 11 Fogalomszótár
-+ **Validáció:** A validáció az a folyamat, amelynek során ellenőrizzük, hogy a bemenetek 
-megfelelnek-e a meghatározott szabályoknak és elvárásoknak. Ez biztosítja, hogy a rendszer 
-megfelelően működjön és elkerülje a hibákat.
+* Adminisztrátor: Az a felhasználó, aki teljes jogosultsággal rendelkezik az oldalon, beleértve a termékek kezelését, felhasználók adminisztrálását és jogosultságok kezelését.
+* Felhasználó: Olyan személy, aki regisztrált a platformon, és hozzáférést kapott a vásárlás és termékböngészés lehetőségéhez.
+* Validáció: A bemeneti adatok ellenőrzésének folyamata, amely során a rendszer biztosítja, hogy az adatok megfelelőek és pontosak legyenek.
+* Inventory: A felhasználó által megvásárolt termékek listája, amely a felhasználói fiókhoz tartozik.
+* Piac: Az oldal azon része, ahol a felhasználók böngészhetik a különböző airsoft termékeket és kiegészítőket.
+* Kezdőlap: A weboldal nyitóoldala, ahol a nem bejelentkezett felhasználók regisztrálhatnak vagy bejelentkezhetnek.
+* Jogosultság: Az a szerepkör, amely meghatározza, hogy egy felhasználó milyen funkciókat érhet el az oldalon (pl. admin vagy normál felhasználó).
