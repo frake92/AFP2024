@@ -16,7 +16,7 @@ További kihívás, hogy nincs egységes életkor-ellenőrzési rendszer, amely 
 
 ## 3. Vágyálomrendszer
 
-A ShadowWeb marketplace weboldal célja egy olyan platform létrehozása, amely kiemelkedő minőséget biztosít Magyarországon az airsoft fegyverek vásárlásában és értékesítésében.  Az oldal felhasználóbarát kezelőfelülettel rendelkezik, illetve szigorú korhatár-szabályozást alkalmaz a biztonság érdekében. A weboldalt php, mysql és javascript nyelv segítségével valósítjuk meg.
+A ShadowWeb marketplace célja egy felhasználóbarát és biztonságos platform létrehozása az airsoft fegyverek és kiegészítők vásárlására Magyarországon. A rendszer egyszerű regisztrációt és bejelentkezést kínál, életkor-ellenőrzéssel a jogszabályok betartása érdekében. A termékek részletes leírásokkal, kategorizált formában érhetők el, megkönnyítve a böngészést és a vásárlást. A vásárlási folyamat gyors és biztonságos, többféle fizetési lehetőséggel. A felhasználók megtekinthetik korábbi vásárlásaikat és kezelhetik fiókadataikat, míg az adminisztrátorok könnyen kezelhetik a termékkészletet és a rendeléseket.
 
 ## 4. Jelenlegi üzleti folyamatok modellje
 
