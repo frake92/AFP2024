@@ -12,9 +12,9 @@ A rendszer célja egy központosított airsoft marketplace létrehozása, amely 
 
      
 ### 2.2 Projektmunkások és felelőségek:
-   * Frontend:
-   * Backend:
-   * Tesztelés:
+   * Frontend: Felhasználói felület tervezése és implementálása (HTML, CSS, JavaScript).
+   * Backend: Adatbázis-kezelés, üzleti logika megvalósítása (PHP, MySQL).
+   * Tesztelés: Funkcionális és nem funkcionális tesztek végrehajtása, hibák azonosítása és dokumentálása.
      
 ### 2.3 Ütemterv:
 
@@ -30,6 +30,9 @@ A rendszer célja egy központosított airsoft marketplace létrehozása, amely 
 ## 3. Üzleti folyamatok modellje
 
 ### 3.1 Üzleti szereplők
+   * Vásárlók: Kereskedők és magánszemélyek, akik termékeket vásárolnak.
+   * Eladók: Magánszemélyek vagy cégek, akik termékeket kínálnak.
+   * Adminisztrátorok: A rendszer felügyelete és a termékek kezelése.
 
 ### 3.2 Üzleti folyamatok
 
