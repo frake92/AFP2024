@@ -54,13 +54,13 @@
     <!--#region login-->
       <div class="container" id="signIn">
         <h1 class="form-title">Belépés</h1>
-        <form method="POST" action="login.php">
+        <form method="POST" action="users.php">
           <div class="input-group">
             <input
-              type="email"
-              name="email"
-              id="email"
-              placeholder="E-mail cím"
+              type="text"
+              name="username"
+              id="username"
+              placeholder="Felhasználónév"
               required
             />
           </div>
