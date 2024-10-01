@@ -1,6 +1,6 @@
 <?php
 
-require_once './connection.php';
+require_once '/connection.php';
 
 $method = $_SERVER['REQUEST_METHOD'];
 
@@ -84,6 +84,13 @@ function updateUser($conn, $data, $id) {
         $birthdate = $data['birthdate'];
         $role = $data['role'];
         $sql = "UPDATE users SET username = '$username', password = '$password', email = '$email', birthdate = '$birthdate', role = '$role' WHERE id = $id";
+
+        if (!filter_var($email, FILTER_VALIDATE_EMAIL)) {
+            http_response_code(400);
+            echo json_encode(array("message" => "Érvénytelen email cím"));
+            return;
+        }
+
         if ($conn->query($sql) === TRUE) {
             echo json_encode(array("message" => "Felhasználó módosítva"));
         } else {

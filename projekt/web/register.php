@@ -1,9 +1,8 @@
 <?php
     include("./API/connection.php");
 
-    if ($_SERVER["REQUEST_METHOD"] == "POST") {
-        $firstName = $conn->real_escape_string($_POST['firstName']);
-        $lastName = $conn->real_escape_string($_POST['lastName']);
+    if ($_SERVER["REQUEST_METHOD"] == "POST") {        
+        $username = $conn->real_escape_string($_POST['username']);
         $email = $conn->real_escape_string($_POST['email']);
         $password = $_POST['password'];
     
@@ -13,7 +12,7 @@
         if ($result->num_rows > 0) {
             echo "Felhasználónév vagy email cím már létezik!";
         } else {
-            $sql = "INSERT INTO users (firstName, lastName, email, password) VALUES ('$firstName', '$lastName', '$email', '$password')";
+            $sql = $sql = "INSERT INTO users (username, email, password) VALUES ('$username', '$email', '$password')";
             if ($conn->query($sql) === TRUE) {
                 echo "<script>alert('Sikeres regisztráció!'); window.location.href='loginpage.php';</script>";
             } else {

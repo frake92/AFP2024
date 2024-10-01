@@ -61,8 +61,8 @@
           <div class="input-group">
             <input
               type="text"
-              name="Username"
-              id="Username"
+              name="username"
+              id="username"
               placeholder="Felhasználónév"
               required
             />

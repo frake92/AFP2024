@@ -19,7 +19,7 @@
                 window.location.href = "loginpage.php";
                 alert("Belépés sikertelen.")
                 </script>';
-        }
+        }           
 
     }
 
