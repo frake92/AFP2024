@@ -1,6 +1,6 @@
 <?php
 
-require_once '/connection.php';
+require_once './API/connection.php';
 
 $method = $_SERVER['REQUEST_METHOD'];
 
@@ -15,7 +15,7 @@ switch ($method) {
         break;
     case 'POST':
         $data = json_decode(file_get_contents('php://input'), true);
-        createUser($conn, $data);
+        createUser($conn, $username, $password, $email, $birthdate);
         break;
     case 'PUT':
         $id = $_GET['id'];
@@ -25,6 +25,10 @@ switch ($method) {
     case 'DELETE':
         $id = $_GET['id'];
         deleteUser($conn, $id);
+        break;
+    case 'Login':
+        $data = json_decode(file_get_contents('php://input'), true);
+        
         break;
     default:
         http_response_code(405);
@@ -59,11 +63,8 @@ function getUser($conn, $id) {
     }
 }
 
-function createUser($conn, $data) {
-    $username = $data['username'];
-    $password = $data['password'];
-    $email = $data['email'];
-    $birthdate = $data['birthdate'];
+function createUser($conn, $username, $password, $email, $birthdate) {
+    
     $sql = "INSERT INTO users (username, password, email, birthdate) VALUES ('$username', '$password', '$email', '$birthdate')";
     if ($conn->query($sql) === TRUE) {
         $userId = $conn->insert_id;
@@ -71,6 +72,15 @@ function createUser($conn, $data) {
     } else {
         http_response_code(500);
         echo json_encode(array("message" => "Hiba történt a feltöltés során"));
+    }
+}
+function loginuser($conn, $username, $password) {
+    
+    $sql = "SELECT * FROM users WHERE username LIKE '$username' AND password LIKE '$password'";
+    if ($conn->query($sql) === TRUE) {                
+        header('Location: marketplace.php');
+    } else {
+        http_response_code(500);        
     }
 }
 

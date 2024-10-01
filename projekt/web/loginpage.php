@@ -54,7 +54,7 @@
     <!--#region login-->
       <div class="container" id="signIn">
         <h1 class="form-title">Belépés</h1>
-        <form method="POST" action="users.php">
+        <form method="Login" action="./users.php">
           <div class="input-group">
             <input
               type="text"

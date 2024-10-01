@@ -85,6 +85,15 @@
               required
             />
           </div>
+          <div class="input-group">
+            <input
+              type="date"
+              name="birthdate"
+              id="birthdate"
+              placeholder="Születési idő"
+              required
+            />
+          </div>
           <input type="submit" class="btn" value="Regisztrálás" name="signUp" />
           <a href="loginpage.php">Már van fiókom!</a>
         </form>
