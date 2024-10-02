@@ -56,8 +56,6 @@
         <h1 class="form-title">Regisztráció</h1>
 
         <form method="POST" action="register.php">
-          
-          </div>
           <div class="input-group">
             <input
               type="text"
