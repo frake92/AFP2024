@@ -14,13 +14,20 @@ switch ($method) {
         }
         break;
     case 'POST':
-        $data = json_decode(file_get_contents('php://input'), true);
-        createUser($conn, $username, $password, $email, $birthdate);
+        if (isset($_POST['logIn'])) {
+
+        }
+        elseif (isset($_POST['signUp'])) {
+            $username = $_POST['username'];
+            $password = $_POST['password'];
+            $email = $_POST['email'];
+            $birthdate = $_POST['birthDate'];
+
+            registUser($conn, $username, $email, $password, $birthdate);
+        }
         break;
     case 'PUT':
-        $id = $_GET['id'];
-        $data = json_decode(file_get_contents('php://input'), true);
-        updateUser($conn, $data, $id);
+        
         break;
     case 'DELETE':
         $id = $_GET['id'];
@@ -32,7 +39,7 @@ switch ($method) {
         break;
     default:
         http_response_code(405);
-        echo json_encode(array("message" => "Nem támogatott metodika"));
+        echo "Nem támogatott metodika";
         break;
 }
 
@@ -44,10 +51,10 @@ function getUsers($conn) {
         while ($row = $result->fetch_assoc()) {
             $users[] = $row;
         }
-        echo json_encode($users);
+        echo $users;
     } else {
         http_response_code(404);
-        echo json_encode(array("message" => "Felhasználók nem találhatók"));
+        echo "Felhasználók nem találhatók";
     }
 }
 
@@ -56,10 +63,10 @@ function getUser($conn, $id) {
     $result = $conn->query($sql);
     if ($result->num_rows > 0) {
         $user = $result->fetch_assoc();
-        echo json_encode($user);
+        echo $user;
     } else {
         http_response_code(404);
-        echo json_encode(array("message" => "Felhasználó nem található"));
+        echo "Felhasználó nem található";
     }
 }
 
@@ -68,10 +75,10 @@ function createUser($conn, $username, $password, $email, $birthdate) {
     $sql = "INSERT INTO users (username, password, email, birthdate) VALUES ('$username', '$password', '$email', '$birthdate')";
     if ($conn->query($sql) === TRUE) {
         $userId = $conn->insert_id;
-        echo json_encode(array("message" => "Felhasználó sikeresen feltöltve", "id" => $userId));
+        echo "Felhasználó sikeresen feltöltve";
     } else {
         http_response_code(500);
-        echo json_encode(array("message" => "Hiba történt a feltöltés során"));
+        echo "Hiba történt a feltöltés során";
     }
 }
 function loginuser($conn, $username, $password) {
@@ -102,14 +109,14 @@ function updateUser($conn, $data, $id) {
         }
 
         if ($conn->query($sql) === TRUE) {
-            echo json_encode(array("message" => "Felhasználó módosítva"));
+            echo "Felhasználó módosítva";
         } else {
             http_response_code(500);
-            echo json_encode(array("message" => "Hiba történt a módosítás során"));
+            echo "Hiba történt a módosítás során";
         }
     } else {
         http_response_code(404);
-        echo json_encode(array("message" => "Felhasználó nem található"));
+        echo "Felhasználó nem található";
     }
 }
 
@@ -119,14 +126,14 @@ function deleteUser($conn, $id) {
     if ($result->num_rows > 0) {
         $sql = "DELETE FROM users WHERE id = $id";
         if ($conn->query($sql) === TRUE) {
-            echo json_encode(array("message" => "Felhasználó sikeresen törölve"));
+            echo "Felhasználó sikeresen törölve";
         } else {
             http_response_code(500);
-            echo json_encode(array("message" => "Hiba történt a törlés során"));
+            echo "Hiba történt a törlés során";
         }
     } else {
         http_response_code(404);
-        echo json_encode(array("message" => "Felhasználó nem található"));
+        echo "Felhasználó nem található";
     }
 }
 

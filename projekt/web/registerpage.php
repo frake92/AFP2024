@@ -54,8 +54,8 @@
     <!--#region register-->
     <div class="container" id="signUp">
         <h1 class="form-title">Regisztráció</h1>
-
         <form method="POST" action="register.php">
+        <form method="POST" action="users.php">
           <div class="input-group">
             <input
               type="text"
