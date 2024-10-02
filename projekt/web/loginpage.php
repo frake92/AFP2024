@@ -56,7 +56,6 @@
         <h1 class="form-title">Belépés</h1>
         <form method="Login" action="./users.php">
           <div class="input-group">
-            <label for="username">Felhasználónév:</label>
             <input
               type="text"
               name="username"
@@ -66,7 +65,6 @@
             />
           </div>
           <div class="input-group">
-            <label for="password">Jelszó:</label>
             <input
               type="password"
               name="password"
