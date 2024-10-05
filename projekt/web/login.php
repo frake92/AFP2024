@@ -1,19 +1,21 @@
 <?php
+
     require_once './API/connection.php';
 
     session_start();
 
     if(isset($_POST['submit'])) {
-        $email = $_POST['email'];
+        $username = $_POST['username'];
         $password = $_POST['password'];
 
         $sql = "SELECT * FROM users WHERE username LIKE '$username' AND password LIKE '$password'";
-        $result = mysqli_query($conn, $sql);
-        $row = mysqli_fetch_array($result, MYSQLI_ASSOC);
-        $count = mysqli_num_rows($result);
+        $result = $conn->query($sql);
 
-        if($count==1) {
-             header("Location: marketplace.php");
+        if($result->num_rows == 1) {
+            $row = $result->fetch_assoc();
+            $_SESSION['user_id'] = $row['id'];
+            header("Location: marketplace.php");
+            exit();
         } else {
             echo '<script>
                 window.location.href = "loginpage.php";

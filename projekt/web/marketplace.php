@@ -1,8 +1,10 @@
 <?php
 
-  include("/API/connection.php");
+  require_once './API/connection.php';
+  
   session_start();
-  if(!isset($_SESSION['id'])) {
+  
+  if(!isset($_SESSION['user_id'])) {
     header('Location: loginpage.php');
     exit();
   }
@@ -11,7 +13,7 @@
 
 
 <!DOCTYPE html>
-<html lang="en">
+<html lang="hu">
   <head>
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"

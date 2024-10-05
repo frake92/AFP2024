@@ -55,29 +55,10 @@
 
     <!--#region login-->
       <div class="container" id="signIn">
-        <h1 class="form-title">Belépés</h1>
-        <form method="POST" action="./login.php">
-          <div class="input-group">
-            <input
-              type="text"
-              name="username"
-              id="username"
-              placeholder="Felhasználónév"
-              required
-            />
-          </div>
-          <div class="input-group">
-            <input
-              type="password"
-              name="password"
-              id="password"
-              placeholder="Jelszó"
-              required
-            />
-          </div>
-          <input type="submit" class="btn" value="Belépés" name="submit" />
-          <a href="registerpage.php">Nincs még fiókom!</a>
-        </form>
+        <h1 class="form-title">Sikeres regisztráció!</h1>
+          <a href="loginpage.php">
+            <button>Vissza a belépéshez</button>
+          </a>
       </div>
     <!--#endregion -->
 

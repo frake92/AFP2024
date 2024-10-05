@@ -1,9 +1,11 @@
 <?php 
+
   require_once './API/connection.php';
+
 ?>
 
 <!DOCTYPE html>
-<html lang="en">
+<html lang="hu">
   <head>  
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
