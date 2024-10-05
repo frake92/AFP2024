@@ -8,10 +8,10 @@
    * Scrum masters:
       + Erdész Réka
 
-      Feladatuk: Heti meetingek megszervezése.
-      Akadályok feltárása.
-      Következő elvégzendő feladatok átbeszélése.
-      Szerepkiosztás.
+      Feladatuk: Heti meetingek megszervezése.  
+      Akadályok feltárása.  
+      Következő elvégzendő feladatok átbeszélése.  
+      Szerepkiosztás.  
       Útmutatás.
 
    * Product owner:
@@ -31,8 +31,8 @@
       + Farkas Lajos
       + Kakuk Márton
 
-      Feladatuk: A felhasználók által elérhető felületek létrehozása. 
-      A backend által biztosított funkciók igénybevétele.
+      Feladatuk: A felhasználók által elérhető felületek létrehozása.  
+      A backend által biztosított funkciók igénybevétele.  
       Egységes design megalkotása.
    * Backend:
       + Batki Roland
@@ -40,7 +40,7 @@
       + Farkas Lajos
       + Kakuk Márton
 
-      Feladatuk: A frontend kiszolgálása adatokkal és adatok feldolgozásával.
+      Feladatuk: A frontend kiszolgálása adatokkal és adatok feldolgozásával.  
       Adatbázisok létrehozása.
    * Tesztelés:
       + Batki Roland
