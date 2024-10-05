@@ -4,14 +4,51 @@
 ## 2. Projektterv
 
 ### 2.1 Projektszerepkörök, felelőségek:
+
    * Scrum masters:
-   * Product owner: 
+      + Erdész Réka
+
+      Feladatuk: Heti meetingek megszervezése.
+      Akadályok feltárása.
+      Következő elvégzendő feladatok átbeszélése.
+      Szerepkiosztás.
+      Útmutatás.
+
+   * Product owner:
+      + Batki Roland
+      + Takács Márk
+      + Farkas Lajos
+      + Kakuk Márton
+
    * Üzleti szereplő:
+      + Megrendelő: Dr. Tajti Tibor
      
 ### 2.2 Projektmunkások és felelőségek:
+
    * Frontend:
+      + Batki Roland
+      + Takács Márk
+      + Farkas Lajos
+      + Kakuk Márton
+
+      Feladatuk: A felhasználók által elérhető felületek létrehozása. 
+      A backend által biztosított funkciók igénybevétele.
+      Egységes design megalkotása.
    * Backend:
+      + Batki Roland
+      + Takács Márk
+      + Farkas Lajos
+      + Kakuk Márton
+
+      Feladatuk: A frontend kiszolgálása adatokkal és adatok feldolgozásával.
+      Adatbázisok létrehozása.
    * Tesztelés:
+      + Batki Roland
+      + Takács Márk
+      + Farkas Lajos
+      + Kakuk Márton
+
+      Feladatuk: Hibák feltárása az üzembe helyezés előtt.
      
 ### 2.3 Ütemterv:
 
@@ -24,11 +61,22 @@
 |Program                  |Prototípus elkészítése                  |         3 |             8 |                      8 |                8 |                   8 |
 |Program                  |Alapfunkciók elkészítése                |         3 |             8 |                      8 |                8 |                   8 |
 |Program                  |Tesztelés                               |         4 |             2 |                      2 |       
+
 ## 3. Üzleti folyamatok modellje
 
 ### 3.1 Üzleti szereplők
 
++ Admin
++ Felhasználó
++ Látogató
+
 ### 3.2 Üzleti folyamatok
+
+| Üzleti szereplő | Üzleti szereplő neve | Feladatkör |
+| :-------------: | :------------------: | :--------: |
+| ... | Látogató | A termékeket nem tudja megnézni, így csak regisztrálni tud. |
+| ... | Felhasználó | Képes: bejelentkezni, kijelentkezni, termékeket megnézni, termékeket vásárolni, saját raktárát megnézni |
+| ... | Admin | Képes: bejelentkezni, kijelentkezni, termékeket megnézni, termékeket vásárolni, saját raktárát megnézni, új termékeket feltölteni, felhasználók adatait módosítani, termékek adatait módosítani, szerepkörök módosítása, felhasználókat kitörölni |
 
 ## 4. Követelmények
 
@@ -54,14 +102,14 @@
 
 ## 6. Fizikai környezet
 
-### Vásárolt softwarekomponensek és külső rendszerek
-
-### Hardver topológia
-
-### Fizikai alrendszerek
+   - Az alkalmazás web platformra készül, ami asztali számítógépről, hordozható készülékekről (laptop, táblagép, okostelefon) egyaránt elérhető megfelelő internet hozzáférés mellett.
+   - Semmilyen böngésző kiegészítő használata nem szükséges.
 
 ### Fejlesztő eszközök
 
+   + Visual Studio Code
+   + XAMPP
+   + phpMyAdmin
 
 ## 8. Architekturális terv
 
