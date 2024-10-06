@@ -30,6 +30,42 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>ShadowWeb</title>
+
+    <style>
+
+      .image-container {
+          display: flex;
+          flex-wrap: wrap;
+          gap: 20px;
+          justify-content: center; /* Középre igazítás */
+          width: 100%; /* Teljes szélesség kihasználása */
+          padding: 20px; /* Extra tér a tartalom körül */
+      }
+
+      .image-box {
+
+          padding: 10px;
+          text-align: center;
+          width: 350px; /* Fix szélesség */
+          height: auto;
+          
+          overflow: hidden; /* Vágja le a kép túlcsordulását */
+      }
+
+      .image-box img {
+          width: 100%;
+          height: 80%;
+          
+        
+      }
+      .thumbnail {
+          width: 100%; /* Kép szélessége a doboz szélességéhez igazítva */
+          height: auto; /* Magasság automatikusan beállítva */
+          border-radius: 5px; /* Kerekített sarkok (opcionális) */
+      } 
+      </style>
+
+
   </head>
   <body>
     <!--#region navbar -->
@@ -60,6 +96,75 @@
       </div>
     </nav>
     <!--#endregion -->
+    
+    <?php 
+
+$sql = "SELECT * FROM guns";
+$result = $conn->query($sql);
+
+if ($result->num_rows > 0) {
+    echo '<div class="image-container">'; // Kezdjük el a konténert a képekhez
+    while($row = $result->fetch_assoc()) {
+        echo '<div class="image-box">';
+        // Modal aktiváló link
+        echo '<a href="#" data-bs-toggle="modal" data-bs-target="#imageModal" 
+            data-bs-image="' . $row['picture_path'] . '" 
+            data-bs-name="' . $row['gun_name'] . '" 
+            data-bs-price="' . $row['price'] . '" 
+            data-bs-description="' . $row['description'] . '">';
+        echo '<img src="' . $row['picture_path'] . '" alt="' . $row['gun_name'] . '" class="thumbnail">';
+        echo '</a>';
+        echo '</div>';
+    }
+    echo '</div>';
+} else {
+    echo "Nincsenek adatok.";
+}
+$conn->close();
+?>
+
+<!-- Modal HTML -->
+<div class="modal fade" id="imageModal" tabindex="-1" aria-labelledby="imageModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="imageModalLabel">Fegyver részletei</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <img src="" id="modalImage" class="img-fluid" alt="Kép" />
+                <h5 id="modalName"></h5>
+                <p id="modalDescription"></p>
+                <p id="modalPrice"></p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Bootstrap JS és jQuery -->
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+
+<!-- Modal adatok betöltése -->
+<script>
+    // Minden kép linkre kattintva, frissítjük a modal tartalmát
+    $('#imageModal').on('show.bs.modal', function (event) {
+        var button = $(event.relatedTarget); // A kattintott kép
+        var image = button.data('bs-image');
+        var name = button.data('bs-name');
+        var price = button.data('bs-price');
+        var description = button.data('bs-description');
+
+        var modal = $(this);
+        modal.find('#modalImage').attr('src', image);
+        modal.find('#modalName').text(name);
+        modal.find('#modalPrice').text('Ár: ' + price + ' Ft');
+        modal.find('#modalDescription').text(description);
+    });
+</script>
+
+
+
 
     <script src="script.js"></script>
   </body>
