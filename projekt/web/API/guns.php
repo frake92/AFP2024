@@ -63,8 +63,7 @@ function createGun($conn, $data) {
     $gunName = $data['gunName'];
     $price = $data['price'];
     $pictureName = $data['pictureName'];
-    # Ide még meg kell írni egy útvonalat, valami ../Images/$pictureName
-    # $picturePath = ;
+    $picturePath = ../images/$pictureName ;
     $description = $data['description'];
     $sql = "INSERT INTO guns (gun_name, price, picture_path, description) VALUES ('$gunName', $price, '$picturePath', '$description')";
     if ($conn->query($sql) === TRUE) {
@@ -83,8 +82,7 @@ function updateGun($conn, $data, $id) {
         $gunName = $data['gunName'];
         $price = $data['price'];
         $pictureName = $data['pictureName'];
-        # Ide még meg kell írni egy útvonalat, valami ../Images/$pictureName
-        # $picturePath = ;
+        $picturePath = ../images/$pictureName ;
         $description = $data['description'];
         $sql = "UPDATE guns SET gun_name = '$gunName', price = $price, picture_path = '$picturePath', description = '$description' WHERE id = $id";
         if ($conn->query($sql) === TRUE) {
