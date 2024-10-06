@@ -113,24 +113,31 @@
    + XAMPP
    + phpMyAdmin
 
-## 8. Architekturális terv
+## 7. Architekturális terv
 
 ### Webszerver
 
+Az Apache http szerveren futó alkalmazás szolgálja ki webes felületen keresztül a rendszer felhasználóit.
+
 ### Adatbázis rendszer
+
+Az adatok tárolása a MySql adatbázis szerveren történik. 
+Az adatbázisban minden mentett adat tárolódik.
 
 ### A program elérése, kezelése
 
-## 9. Adatbázis terv
+A felhasználó felület böngészőben megjelenő html oldalak formájában érhető el, ezen keresztül tudják a felhasználók a rendszert használni.
 
-## 10. Implementációs terv
+## 8. Adatbázis terv
 
-## 11. Tesztterv
+## 9. Implementációs terv
 
-## 12. Telepítési terv
+## 10. Tesztterv
+
+## 11. Telepítési terv
 
 Fizikai telepítési terv: 
 
 Szoftver telepítési terv: 
 
-## 13. Karbantartási terv
+## 12. Karbantartási terv
