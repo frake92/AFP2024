@@ -164,7 +164,7 @@ $conn->close();
 </script>
 
 
-
+<!-- Teszt -->
 
     <script src="script.js"></script>
   </body>
