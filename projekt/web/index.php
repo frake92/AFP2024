@@ -22,6 +22,39 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>ShadowWeb</title>
+
+    <style>
+      html, body {
+        margin: 0;
+        padding: 0;
+        height: 100%;
+      }
+
+
+      body {
+          background-image: url('./images/shadowweb.png');
+          background-size: cover;
+          background-position: center; 
+          background-repeat: no-repeat;
+          min-height: 100vh;
+      }
+
+      
+      @media (max-width: 768px) {
+          body {
+              background-size: cover;
+              background-position: center;
+          }
+      }
+
+      @media (max-width: 480px) {
+          body {
+              background-size: cover;
+              background-position: center center;
+          }
+      }
+    </style>
+
   </head>
   <body>
     <!--#region navbar -->
