@@ -64,6 +64,8 @@
 
 ## 3. Üzleti folyamatok modellje
 
+![uzleti_folyamatok_modellje.png](https://github.com/frake92/AFP2024/blob/main/images/%C3%BCzleti%20folyamatok%20modellje.png)
+
 ### 3.1 Üzleti szereplők
 
 + Admin
@@ -74,9 +76,9 @@
 
 | Üzleti szereplő | Üzleti szereplő neve | Feladatkör |
 | :-------------: | :------------------: | :--------: |
-| ... | Látogató | A termékeket nem tudja megnézni, így csak regisztrálni tud. |
-| ... | Felhasználó | Képes: bejelentkezni, kijelentkezni, termékeket megnézni, termékeket vásárolni, saját raktárát megnézni |
-| ... | Admin | Képes: bejelentkezni, kijelentkezni, termékeket megnézni, termékeket vásárolni, saját raktárát megnézni, új termékeket feltölteni, felhasználók adatait módosítani, termékek adatait módosítani, szerepkörök módosítása, felhasználókat kitörölni |
+| ![latogato_modellje.png](https://github.com/frake92/AFP2024/blob/main/images/l%C3%A1togat%C3%B3%20modellje.png) | Látogató | A termékeket nem tudja megnézni, így csak regisztrálni tud. |
+| ![felhasznalo_modellje.png](https://github.com/frake92/AFP2024/blob/main/images/felhaszn%C3%A1l%C3%B3%20modellje.png) | Felhasználó | Képes: bejelentkezni, kijelentkezni, termékeket megnézni, termékeket vásárolni, saját raktárát megnézni |
+| ![admin_modellje.png](https://github.com/frake92/AFP2024/blob/main/images/admin%20modellje.png) | Admin | Képes: bejelentkezni, kijelentkezni, termékeket megnézni, termékeket vásárolni, saját raktárát megnézni, új termékeket feltölteni, felhasználók adatait módosítani, termékek adatait módosítani, szerepkörök módosítása, felhasználókat kitörölni |
 
 ## 4. Követelmények
 
