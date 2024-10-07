@@ -56,9 +56,7 @@
     <!--#region login-->
       <div class="container" id="signIn">
         <h1 class="form-title">Sikeres regisztráció!</h1>
-          <a href="loginpage.php">
-            <button>Vissza a belépéshez</button>
-          </a>
+        <a class="link-log-reg" href="loginpage.php">Vissza a belépéshez</a>
       </div>
     <!--#endregion -->
 

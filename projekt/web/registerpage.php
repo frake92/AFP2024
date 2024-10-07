@@ -94,7 +94,7 @@
             />
           </div>
           <input type="submit" class="btn" value="Regisztrálás" name="signUp" />
-          <a href="loginpage.php">Már van fiókom!</a>
+          <a class="link-log-reg" href="loginpage.php">Már van fiókom!</a>
         </form>
       </div>
     <!--#endregion -->

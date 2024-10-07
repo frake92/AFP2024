@@ -88,7 +88,7 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
           <div class="navbar-nav">
-            <!-- <a class="nav-link" href="index.php">Kezdőlap</a> -->
+            <a class="nav-link" href="storagepage.php">Raktár</a>
             <a class="nav-link active" aria-current="page" href="#">Piac</a>
             <a class="nav-link" href="logout.php">Kijelentkezés</a>
           </div>

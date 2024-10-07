@@ -5,7 +5,7 @@
 }
 
 body {
-  background-color: aquamarine;
+  background-color: rgb(200, 185, 85);
 }
 
 .container {
@@ -51,7 +51,7 @@ input {
 input:focus {
   background-color: transparent;
   outline: transparent;
-  border-bottom: 2px solid cadetblue;
+  border-bottom: 2px solid rgb(200, 175, 100);
 }
 
 input::placeholder {
@@ -74,7 +74,7 @@ input::placeholder {
 }
 
 .btn:hover {
-  background: darkslategrey;
+  background: rgb(80, 80, 0);
   color: white;
 }
 
@@ -84,6 +84,20 @@ input::placeholder {
   margin-top: 20px;
   font-weight: bold;
   text-align: center;
+  text-decoration: none;
+  color: rgb(255, 150, 0);
+}
+
+.links:hover, .link-log-reg:hover {
+  color: rgb(200, 120, 0);
+}
+
+.link-log-reg {
+  font-weight: bold;
+  text-decoration: none;
+  color: rgb(255, 150, 0);
+  display: flex;
+  justify-content: center;
 }
 
 button {
@@ -95,9 +109,51 @@ button {
 }
 
 button:hover {
-  color: darkslategrey;
+  color: rgb(80, 80, 0);
 }
 
 #birthdate {
   text-align: center;
+}
+
+/* Storage */
+
+#storage-container {
+  text-align: center;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.guns-container {
+  border-collapse: collapse;
+}
+
+.guns-container tr th {
+  border-bottom: solid rgb(255, 150, 0) 3.5px;
+  font-size: 14pt;
+}
+
+.guns-container tr th, .guns-container tr td {
+  padding: 10px 30px;
+  border-right: solid 2px black;
+}
+
+.guns-container tr th:last-child, .guns-container tr td:last-child {
+  border-right: none;
+}
+
+.guns-container tr td:first-child {
+  border-top-left-radius: 30px;
+  border-bottom-left-radius: 30px;
+}
+
+.guns-container tr td:last-child {
+  border-top-right-radius: 30px;
+  border-bottom-right-radius: 30px;
+}
+
+.guns-container tr:hover td {
+  background-color: silver;
 }

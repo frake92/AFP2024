@@ -76,7 +76,7 @@
             />
           </div>
           <input type="submit" class="btn" value="Belépés" name="submit" />
-          <a href="registerpage.php">Nincs még fiókom!</a>
+          <a class="link-log-reg" href="registerpage.php">Nincs még fiókom!</a>
         </form>
       </div>
     <!--#endregion -->
