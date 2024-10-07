@@ -15,7 +15,7 @@ $result = $conn->query($sql);
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
     <style>
         body {
-            background-color: #f8f9fa; /* Gray background */
+            background-color: #f8f9fa;
         }
     </style>
 </head>
@@ -59,7 +59,7 @@ $result = $conn->query($sql);
                             <td><?php echo $row['role']; ?></td>
                             <td>
     <a href="edit_user.php?id=<?php echo $row['id']; ?>" class="btn btn-primary">Szerkesztés</a>
-    <form method="POST" action="users.php" style="display:inline;">
+    <form method="POST" action="delete_user.php" style="display:inline;">
         <input type="hidden" name="id" value="<?php echo $row['id']; ?>">
         <button type="submit" class="btn btn-danger" onclick="return confirm('Biztosan törölni akarja ezt a felhasználót?');">Törlés</button>
     </form>
