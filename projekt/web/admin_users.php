@@ -58,8 +58,14 @@ $result = $conn->query($sql);
                             <td><?php echo $row['birthdate']; ?></td>
                             <td><?php echo $row['role']; ?></td>
                             <td>
-                                <a href="edit_user.php?id=<?php echo $row['id']; ?>" class="btn btn-primary">Szerkesztés</a>
-                            </td>
+    <a href="edit_user.php?id=<?php echo $row['id']; ?>" class="btn btn-primary">Szerkesztés</a>
+    <form method="POST" action="users.php" style="display:inline;">
+        <input type="hidden" name="id" value="<?php echo $row['id']; ?>">
+        <button type="submit" class="btn btn-danger" onclick="return confirm('Biztosan törölni akarja ezt a felhasználót?');">Törlés</button>
+    </form>
+</td>
+
+
                         </tr>
                     <?php endwhile; ?>
                 <?php else: ?>
