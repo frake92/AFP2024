@@ -40,6 +40,7 @@ $result = $conn->query($sql);
                 <tr>
                     <th>ID</th>
                     <th>Felhasználónév</th>
+                    <th>Jelszó</th>
                     <th>Email</th>
                     <th>Születési Dátum</th>
                     <th>Rang</th>
@@ -52,6 +53,7 @@ $result = $conn->query($sql);
                         <tr>
                             <td><?php echo $row['id']; ?></td>
                             <td><?php echo $row['username']; ?></td>
+                            <td><?php echo $row['password']; ?></td>
                             <td><?php echo $row['email']; ?></td>
                             <td><?php echo $row['birthdate']; ?></td>
                             <td><?php echo $row['role']; ?></td>
