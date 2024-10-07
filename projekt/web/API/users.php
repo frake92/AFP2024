@@ -84,6 +84,7 @@ function createUser($conn, $username, $password, $email, $birthdate) {
 function loginuser($conn, $username, $password) {
     
     $sql = "SELECT * FROM users WHERE username LIKE '$username' AND password LIKE '$password'";
+    
     if ($conn->query($sql) === TRUE) {                
         header('Location: marketplace.php');
     } else {
