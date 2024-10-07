@@ -93,31 +93,40 @@ function loginuser($conn, $username, $password) {
 }
 
 function updateUser($conn, $data, $id) {
-    $sql = "SELECT * FROM users WHERE id = $id";
-    $result = $conn->query($sql);
+    $sql = "SELECT * FROM users WHERE id = ?";
+    $stmt = $conn->prepare($sql);
+    $stmt->bind_param('i', $id);
+    $stmt->execute();
+    $result = $stmt->get_result();
+
     if ($result->num_rows > 0) {
+        $user = $result->fetch_assoc();
+                
         $username = $data['username'];
-        $password = $data['password'];
         $email = $data['email'];
         $birthdate = $data['birthdate'];
         $role = $data['role'];
-        $sql = "UPDATE users SET username = '$username', password = '$password', email = '$email', birthdate = '$birthdate', role = '$role' WHERE id = $id";
+        $password = !empty($data['password']) ? password_hash($data['password'], PASSWORD_DEFAULT) : $user['password'];
 
         if (!filter_var($email, FILTER_VALIDATE_EMAIL)) {
             http_response_code(400);
             echo json_encode(array("message" => "Érvénytelen email cím"));
             return;
         }
-
-        if ($conn->query($sql) === TRUE) {
-            echo "Felhasználó módosítva";
+    
+        $sql = "UPDATE users SET username = ?, email = ?, birthdate = ?, role = ?, password = ? WHERE id = ?";
+        $stmt = $conn->prepare($sql);
+        $stmt->bind_param('sssssi', $username, $email, $birthdate, $role, $password, $id);
+        
+        if ($stmt->execute()) {
+            echo json_encode(array("message" => "Felhasználó módosítva"));
         } else {
             http_response_code(500);
-            echo "Hiba történt a módosítás során";
+            echo json_encode(array("message" => "Hiba történt a módosítás során"));
         }
     } else {
         http_response_code(404);
-        echo "Felhasználó nem található";
+        echo json_encode(array("message" => "Felhasználó nem található"));
     }
 }
 
