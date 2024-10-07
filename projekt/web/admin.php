@@ -6,7 +6,8 @@
         $username = $_POST['username'];
         $password = $_POST['password'];
 
-        
+        $sql = "SELECT * FROM users WHERE username = ? AND password = ? AND role = 'admin'";        
+        $result = $stmt->get_result();
         
     }
 ?>
