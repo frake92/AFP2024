@@ -123,7 +123,19 @@
 
 + Kezdőlap
 + Regisztráció
++ Belépés 
 
+## FŐOLDAL (FELHASZNÁLÓ)
+
++ Raktár
++ Piac
++ Kijelentkezés
+
+## FŐOLDAL (ADMIN)
+
++ Fegyver hozzáadás
++ Felhasználók megtekintése
++ Kijelentkezés
 
 ## 6. Fizikai környezet
 
