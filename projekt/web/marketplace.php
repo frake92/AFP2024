@@ -109,6 +109,7 @@ if ($result->num_rows > 0) {
         // Modal aktiváló link
         echo '<a href="#" data-bs-toggle="modal" data-bs-target="#imageModal" 
             data-bs-image="' . $row['picture_path'] . '" 
+            data-bs-gunId="' . $row['id'] . '" 
             data-bs-name="' . $row['gun_name'] . '" 
             data-bs-price="' . $row['price'] . '" 
             data-bs-description="' . $row['description'] . '">';
@@ -136,7 +137,10 @@ $conn->close();
                 <h5 id="modalName"></h5>
                 <p id="modalDescription"></p>
                 <p id="modalPrice"></p>
-                <button type="button" class="btn btn-primary" id="purchaseButton">Vásárlás</button>
+                <form id="purchaseForm" action="purchase.php" method="POST">
+                    <input type="hidden" name="gunId" id="modalGunId">
+                    <button type="submit" class="btn btn-primary">Vásárlás</button>
+                </form>
             </div>
         </div>
     </div>
@@ -155,12 +159,14 @@ $conn->close();
         var name = button.data('bs-name');
         var price = button.data('bs-price');
         var description = button.data('bs-description');
+        var gunId = button.data('bs-gunId');
 
         var modal = $(this);
         modal.find('#modalImage').attr('src', image);
         modal.find('#modalName').text(name);
         modal.find('#modalPrice').text('Ár: ' + price + ' Ft');
         modal.find('#modalDescription').text(description);
+        modal.find('#modalGunId').val(gunId);
     });
 </script>
 
