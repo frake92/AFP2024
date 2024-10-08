@@ -45,6 +45,7 @@
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
           <div class="navbar-nav">
             <a class="nav-link" href="index.php">Kezdőlap</a>
+            <a class="nav-link" href="loginpage.php">Belépés</a>
             <!-- <a class="nav-link" href="marketplace.php">Piac</a> -->
             <!-- <a class="nav-link active" aria-current="page" href="#">Belépés</a> -->
           </div>
