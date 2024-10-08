@@ -173,6 +173,32 @@ vásároljanak és kezeljék saját készleteiket, míg az adminisztrátorok fel
 - Felhasználók megtekintése
 - Kijelentkezés
 
+## Regisztráció 
+
+- Kezdőlap
+- Belépés
+- Regisztrációs felület
+
+## Bejelentkezés
+
+- Bejelentkezési felület
+- Regisztráció 
+- Vissza a főoldalra
+
+## Fegyver hozzáadás (ADMIN)
+
+- Fegyver hozzáadási felület
+- Felhasználók megtekintése
+- Kijelentkezés
+
+## Felhasználók megtekintése (ADMIN)
+
+- Regisztrált felhasználók 
+- Szerkesztés 
+- Törlés
+- Fegyver hozzáadás
+- Kijelentkezés 
+
 ## 6. Fizikai környezet
 
 - Az alkalmazás web platformra készül, ami asztali számítógépről, hordozható
@@ -205,14 +231,11 @@ ezen keresztül tudják a felhasználók a rendszert használni.
 
 ## 8. Adatbázis terv
 
+ ![Adatbázis.png]
+ ![Gunsadatbazis.png]
+ ![Usersadatbazis.png]
+ ![inventoriesadatbazis.png]
+
 ## 9. Implementációs terv
 
-## 10. Tesztterv
-
-## 11. Telepítési terv
-
-Fizikai telepítési terv:
-
-Szoftver telepítési terv:
-
-## 12. Karbantartási terv
+A webszerveren futó php program tartalmazza az üzleti logikát. A felhasználói felület, ami böngészőben megjelenő weboldalak formájában érhető el HTML, CSS, és JavaScript technológiák felhasználásával készülnek. A programok objektum orientált programozási paradigma használatával, MVC modell használata mellett. MySql adatbázis szervert használunk az adatok tárolására.
