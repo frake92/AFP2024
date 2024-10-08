@@ -140,12 +140,13 @@ felhasználókat.
 ## 8. Képernyőtervek
 | Kép | Leírás |
 | :-----------: | :-----------: |
-| ![index.png](https://github.com/frake92/AFP2024/tree/main/images/index.png) | |
-| ![login.png](https://github.com/frake92/AFP2024/tree/main/images/login.png) | |
-| ![marketplace.png](https://github.com/frake92/AFP2024/tree/main/images/marketplace.png) | |
-| ![register.png](https://github.com/frake92/AFP2024/tree/main/images/register.png) | |
-| ![index.png](https://github.com/frake92/AFP2024/tree/main/images/index.png) | |
-| ![index.png](https://github.com/frake92/AFP2024/tree/main/images/index.png) | |
+| ![index.png](https://github.com/frake92/AFP2024/tree/main/images/index.png) | A kezdőlap tervezete. Ezt bárki számára elérhető. |
+| ![login.png](https://github.com/frake92/AFP2024/tree/main/images/login.png) |  |
+| ![marketplace.png](https://github.com/frake92/AFP2024/tree/main/images/marketplace.png) |  |
+| ![register.png](https://github.com/frake92/AFP2024/tree/main/images/register.png) |  |
+| ![raktár.png](https://github.com/frake92/AFP2024/tree/main/images/raktár.png) |  |
+| ![Admin1.png](https://github.com/frake92/AFP2024/tree/main/images/Admin1.png) |  |
+| ![Admin2.png](https://github.com/frake92/AFP2024/tree/main/images/Admin2.png) |  |
 
 ## 9. Forgatókönyvek
 
