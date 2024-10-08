@@ -115,17 +115,35 @@ vásároljanak és kezeljék saját készleteiket, míg az adminisztrátorok fel
 
 ## 4. Követelmények
 
+A követelmények a projekt alapvető funkcionalitására és nemfunkcionális aspektusaira vonatkozóan két fő kategóriára oszthatók: funkcionális követelmények és nemfunkcionális követelmények.
+
 ### Funkcionális követelmények
 
 | ID  | Megnevezés | Leírás |
 | --- | ---------- | ------ |
-| K1  | ...        | ...    |
+| K1  | Regisztráció      | A felhasználóknak lehetőséget kell biztosítani a rendszerben történő regisztrációra. A regisztrált felhasználók alapértelmezésben vásárlói szerepkört kapnak.    |
+| K2 | Bejelentkezés       | A regisztrált felhasználók számára bejelentkezési lehetőséget kell biztosítani a rendszerhez.   |
+| K3  | Jogosultságok kezelése      | A felhasználók eltérő jogosultsági szintekkel rendelkezhetnek: Admin, Moderátor, Felhasználó, Látogató.    |
+| K4  | Airsoft fegyverek vásárlása       | A vásárlói jogosultsággal rendelkező felhasználók képesek legyenek a Piac menüponton keresztül airsoft fegyvereket vásárolni.   |
+| K5  | Raktár kezelése      | A vásárlók meg tudják tekinteni, milyen termékek szerepelnek a raktárukban (saját fegyverek).   |
+| K6  | Fegyverek hozzáadása (Admin)        | Az adminisztrátori jogosultsággal rendelkező felhasználók új fegyvereket tudnak hozzáadni a Piac menüponthoz.  |
+| K7  | Vendég hozzáférés korlátozása      | A nem regisztrált látogatók nem férhetnek hozzá a vásárlás funkcióhoz, csak a regisztráció és bejelentkezés elérhető számukra.|
+
+
+
 
 ### Nemfunkcionális követelmények
 
 | ID  | Megnevezés | Leírás |
 | --- | ---------- | ------ |
-| K4  | ...        | ...    |
+| K8  | Skálázhatóság        | A rendszer képes legyen skálázódni a felhasználói terhelés növekedése esetén.    |
+| K9  | Teljesítmény      | 	Az oldalak betöltési ideje nem haladhatja meg az 5 másodpercet normál felhasználói terhelés mellett. |
+| K10  | Biztonság       | A rendszer biztosítsa a felhasználói adatok biztonságát, beleértve az érzékeny adatok titkosítását (pl. jelszavak).    |
+| K11 | Hozzáférhetőség       | A rendszer legyen elérhető 99%-os rendelkezésre állással éves szinten.   |
+| K12 | Böngésző kompatibilitás        | A rendszer kompatibilis legyen a legelterjedtebb böngészőkkel (Google Chrome, Mozilla Firefox, Microsoft Edge).   |
+| K13 | Mobil kompatibilitás        | Az oldal reszponzív legyen, tehát jól működjön mobil és táblagép felületeken is.  |
+| K14 | Felhasználóbarát kialakítás        | Az oldal kezelőfelülete legyen intuitív, könnyen használható, és megfelelő visszajelzést adjon a felhasználóknak (pl. sikeres műveletek visszaigazolása, hibás bevitelnél
+hibaüzenetek megjelenítése).    |
 
 ### Támogatott eszközök
 
