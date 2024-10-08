@@ -140,7 +140,12 @@ felhasználókat.
 ## 8. Képernyőtervek
 | Kép | Leírás |
 | :-----------: | :-----------: |
-| ![index.png](https://github.com/frake92/AFP2024/tree/main/images/index.png) |
+| ![index.png](https://github.com/frake92/AFP2024/tree/main/images/index.png) | |
+| ![login.png](https://github.com/frake92/AFP2024/tree/main/images/login.png) | |
+| ![marketplace.png](https://github.com/frake92/AFP2024/tree/main/images/marketplace.png) | |
+| ![register.png](https://github.com/frake92/AFP2024/tree/main/images/register.png) | |
+| ![index.png](https://github.com/frake92/AFP2024/tree/main/images/index.png) | |
+| ![index.png](https://github.com/frake92/AFP2024/tree/main/images/index.png) | |
 
 ## 9. Forgatókönyvek
 
