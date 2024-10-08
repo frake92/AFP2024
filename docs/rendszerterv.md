@@ -99,8 +99,31 @@
 ## 5. Funkcionális terv
 
 ### 5.1 Rendszerszereplők
+## ADMIN
+
++ Feladata a rendszer teljes felügyelete.
++ Bármely szerepkörbe beléphet a hibamentes működés ellenőrzésére.
++ Korlátlan hozzáféréssel rendelkezik az egész rendszerhez, beleértve a felhasználói profilok módosítását (jogosultságok, szerepkörök, felhasználónév, jelszó).
++ meglévőket törölhet szabályszegés esetén.
+
+## FELHASZNÁLÓ
+
++ Joga van az összes tartalom megtekintésére és a visszajelző rendszer használatára.
++ Posztolhat bejegyzéseket, értékelheti azokat, és hozzászólásokat írhat.
+
+## LÁTOGATÓ
+
++ Csak a megjelenő bejegyzéseket tekintheti meg.
++ Nem interaktálhat a tartalommal, amíg nem regisztrál.
+
 
 ### 5.2 Menühierarchiák
+
+## FŐOLDAL
+
++ Kezdőlap
++ Regisztráció
+
 
 ## 6. Fizikai környezet
 
