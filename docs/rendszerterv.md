@@ -249,10 +249,10 @@ ezen keresztül tudják a felhasználók a rendszert használni.
 
 ## 8. Adatbázis terv
 
- ![Adatbázis.png]
- ![Gunsadatbazis.png]
- ![Usersadatbazis.png]
- ![inventoriesadatbazis.png]
+ ![Adatbázis.png](https://github.com/frake92/AFP2024/blob/main/images/Adatb%C3%A1zis.png)
+ ![Gunsadatbazis.png](https://github.com/frake92/AFP2024/blob/main/images/Gunsadatbazis.png)
+ ![Usersadatbazis.png](https://github.com/frake92/AFP2024/blob/main/images/Usersadatbazis.png)
+ ![inventoriesadatbazis.png](https://github.com/frake92/AFP2024/blob/main/images/inventoriesadatbazis.png)
 
 ## 9. Implementációs terv
 
