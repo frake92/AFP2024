@@ -47,6 +47,7 @@
             <a class="nav-link" href="index.php">Kezdőlap</a>
             <!-- <a class="nav-link" href="marketplace.php">Piac</a> -->
             <a class="nav-link active" aria-current="page" href="#">Belépés</a>
+            <a class="nav-link" href="registerpage.php">Regisztráció</a>
           </div>
         </div>
       </div>

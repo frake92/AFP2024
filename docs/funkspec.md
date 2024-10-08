@@ -138,6 +138,15 @@ feltölteni további fegyvereket a felhasználók számára. Továbbá képes m�
 felhasználókat.
 
 ## 8. Képernyőtervek
+| Kép | Leírás |
+| :-----------: | :-----------: |
+| ![index.png](https://github.com/frake92/AFP2024/blob/main/images/index.png) | A kezdőlap tervezete. Ezt bárki számára elérhető. |
+| ![login.png](https://github.com/frake92/AFP2024/blob/main/images/login.png) | Bejelentkező oldal. Az előzetesen beregisztrált felhasználók pár adat megadása után beléphetnek a weblapra.  |
+| ![marketplace.png](https://github.com/frake92/AFP2024/blob/main/images/marketplace.png) | Piac oldal rész. Ahol a felhasználók válogathatnak a különböző kínálatokból |
+| ![register.png](https://github.com/frake92/AFP2024/blob/main/images/register.png) | Regisztráció tervezete. A nem beregisztált felhasználók, pár adat megadásával sikeresen regisztrált a weboldalunkra. |
+| ![raktár.png](https://github.com/frake92/AFP2024/blob/main/images/raktár.png) | Raktár tervezete. Felhasználók által megvásárolt Fegyverek megjelennek a raktár részlegükben. |
+| ![Admin1.png](https://github.com/frake92/AFP2024/blob/main/images/Admin1.png) | Admin részleg fegyver hozzáadás tervezete. Itt az adminok Új fegyvert tudnak feltölteni a piac kínálatába, hogy a felhasználók minél színesebben tudjanak válogatni a kínálataink között. |
+| ![Admin2.png](https://github.com/frake92/AFP2024/blob/main/images/Admin2.png) | Admin részleg felhasználó adatok módosítása tervezete. Az adminok szerekszteni tudják a felhasználók, jelszavát, email cím változtatásaikat. Illeteve törölni tudják a felhasználókat |
 
 ## 9. Forgatókönyvek
 
