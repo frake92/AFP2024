@@ -138,6 +138,9 @@ feltölteni további fegyvereket a felhasználók számára. Továbbá képes m�
 felhasználókat.
 
 ## 8. Képernyőtervek
+| Kép | Leírás |
+| :-----------: | :-----------: |
+| ![index.png](https://github.com/frake92/AFP2024/tree/main/images/index.png) |
 
 ## 9. Forgatókönyvek
 
