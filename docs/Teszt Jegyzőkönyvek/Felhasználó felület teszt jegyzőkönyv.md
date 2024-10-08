@@ -13,7 +13,7 @@ Talált hibák száma: 0
 + Bejelentkezés után ide dobja a felhasználót.
 + Az oldalon az összes termék kilistázódik.
 + A termékekre rá lehet kattintani, így feljön egy oldal ahol meg lehet tekinteni az összes adatot a fegyverről.
-+ 
++ A termék rá kattintása után a "megvásárolt" gomb átdob a felhasználó raktárjára, a megvásárolt termékkel együtt.
 
 ### Raktár megtekintése
 
