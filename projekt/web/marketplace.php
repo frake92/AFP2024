@@ -136,6 +136,7 @@ $conn->close();
                 <h5 id="modalName"></h5>
                 <p id="modalDescription"></p>
                 <p id="modalPrice"></p>
+                <button type="button" class="btn btn-primary" id="purchaseButton">Vásárlás</button>
             </div>
         </div>
     </div>
